@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descubra centenas de receitas deliciosas e fáceis de preparar com nosso site moderno e otimizado para SEO.">
+  <title>Receitas Deliciosas</title>
+  <link href="style.css" rel="stylesheet">
 </head>
-<body>
-	<p>Hello World</p>
+<body class="bg-light text-dark font-body">
+  <header class="header">
+    <div class="container">
+		<h1 class="logo"><a href="index.html" style="color:white; text-decoration:none;">🍲 Receitas Deliciosas</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="#receitas" class="nav-link">Receitas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2 class="hero-title">Cozinhe com amor ❤️</h2>
+      <p class="hero-subtitle">As melhores receitas da internet, agora na sua mesa.</p>
+    </section>
+
+    <section id="receitas" class="grid-recipes">
+      <a href="bolo-de-cenoura/index.html" class="card">
+        <img src="images/bolo-de-cenoura.jpg" alt="Bolo de Cenoura" class="card-img">
+        <div class="card-content">
+          <h3 class="card-title">Bolo de Cenoura</h3>
+          <p class="card-description">Receita clássica com cobertura de chocolate.</p>
+        </div>
+      </a>
+      <a href="feijoada/index.html" class="card">
+        <img src="images/feijoada.webp" alt="Feijoada" class="card-img">
+        <div class="card-content">
+          <h3 class="card-title">Feijoada</h3>
+          <p class="card-description">Tradição brasileira para o fim de semana.</p>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Receitas Deliciosas. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
