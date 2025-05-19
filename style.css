@@ -27,33 +27,73 @@ body {
   padding: 1rem;
 }
 
+/* Header Styles */
 .header {
-  background: var(--green);
-  color: white;
+  background: white;
+  border-bottom: 1px solid #ddd;
   padding: 1rem 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem; /* small gap between elements */
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 
 .logo {
   font-size: 1.8rem;
   font-weight: 700;
 }
 
+.logo a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+/* Navigation default - desktop */
 .nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 0.5rem;
 }
 
 .nav-link {
-  margin-right: 1.5rem;
-  color: white;
+  color: var(--dark);
   text-decoration: none;
   font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover {
+  color: var(--green-dark);
   text-decoration: underline;
 }
 
+/* Hamburger button (keep original style) */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--dark);
+  cursor: pointer;
+}
+
+/* Hero section */
 .hero {
   text-align: center;
   margin: 2rem 0;
@@ -70,18 +110,33 @@ body {
   color: var(--gray);
 }
 
+/* Grid of recipes */
 .grid-recipes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
+/* Category title */
+.category-title {
+  font-size: 1.8rem;
+  color: var(--green-dark);
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  border-left: 5px solid var(--green);
+  padding-left: 0.75rem;
+}
+
+/* Recipe card */
 .card {
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
   color: inherit;
@@ -89,7 +144,7 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-img {
@@ -114,6 +169,7 @@ body {
   font-size: 0.95rem;
 }
 
+/* Footer */
 .footer {
   background: var(--green-dark);
   color: white;
@@ -122,45 +178,215 @@ body {
   margin-top: 4rem;
 }
 
+/* Recipe page content */
 .recipe-article {
-	margin-top: 2rem;
-	background: white;
-	padding: 2rem;
-	border-radius: 12px;
-	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.recipe-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-bottom: 1rem;
+}
+
+.recipe-list {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-list li {
+  margin-bottom: 0.5rem;
+  color: var(--gray);
+}
+
+.recipe-list.numbered {
+  list-style-type: decimal;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
   }
-  
-  .recipe-img {
-	width: 100%;
-	max-height: 400px;
-	object-fit: cover;
-	border-radius: 12px;
-	margin-bottom: 2rem;
-	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+  .nav {
+    width: 100%;
+    flex-direction: column;
+    display: none;
+    margin-top: 1rem;
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 1rem;
   }
-  
-  .recipe-section {
-	margin-bottom: 2rem;
+
+  .nav.active {
+    display: flex;
   }
-  
-  .section-title {
-	font-size: 1.5rem;
-	font-weight: 700;
-	color: var(--green-dark);
-	margin-bottom: 1rem;
+
+  .nav-link {
+    margin: 0.5rem 0;
+    color: var(--dark);
   }
-  
-  .recipe-list {
-	padding-left: 1.2rem;
-	margin-bottom: 1rem;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+body.dark .header {
+  background: var(--dark);
+  border-bottom: 1px solid #333;
+}
+
+body.dark .nav-link {
+  color: var(--light);
+}
+
+body.dark .nav-link:hover {
+  color: var(--green);
+}
+
+body.dark .card {
+  background: #2d3748;
+  color: var(--light);
+}
+
+body.dark .card-title {
+  color: var(--green);
+}
+
+body.dark .card-description {
+  color: #d1d5db;
+}
+
+body.dark .footer {
+  background: #111827;
+}
+
+/* Toggle button styling */
+.dark-mode-toggle {
+  background: var(--light);
+  border-radius: 9999px;
+  padding: 0.25rem 0.6rem;
+  border: 1.5px solid var(--green-dark);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  color: var(--green-dark);
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  user-select: none;
+  position: relative;
+  min-width: 50px;
+  justify-content: center;
+}
+
+/* Hide the toggle switch circle initially */
+.dark-mode-toggle .toggle-switch {
+  width: 30px;
+  height: 14px;
+  background: var(--green-dark);
+  border-radius: 9999px;
+  margin-left: 8px;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+/* The white circle inside the toggle */
+.dark-mode-toggle .toggle-switch::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+/* Dark mode active styles */
+body.dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+body.dark .header {
+  background: var(--dark);
+  border-bottom: 1px solid #444;
+}
+
+body.dark .logo a {
+  color: var(--light);
+}
+
+body.dark .menu-toggle {
+  color: var(--light);
+}
+
+body.dark .nav-link {
+  color: var(--light);
+}
+
+body.dark .nav-link:hover {
+  color: var(--green);
+}
+
+body.dark .dark-mode-toggle {
+  background: var(--green-dark);
+  border-color: var(--green);
+  color: var(--light);
+}
+
+body.dark .dark-mode-toggle .toggle-switch {
+  background: var(--green);
+}
+
+body.dark .dark-mode-toggle .toggle-switch::before {
+  transform: translateX(16px);
+}
+
+body.dark .recipe-article {
+  background-color: var(--dark); /* dark but distinct from body */
+  color: #ffffff;              /* lighter text */
+  padding: 1.5rem;          /* some breathing space */
+  border-radius: 8px;       /* subtle rounding */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6); /* soft shadow for floating effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dark-mode-toggle {
+    order: 3; /* place after nav & menu toggle */
+    margin-top: 0.5rem;
   }
-  
-  .recipe-list li {
-	margin-bottom: 0.5rem;
-	color: var(--gray);
+
+  .header-container {
+    gap: 0.5rem;
   }
-  
-  .recipe-list.numbered {
-	list-style-type: decimal;
+
+  body.dark .nav {
+    background-color: #2c6b47; /* or use var(--green-dark) for consistency */
+    border-radius: 8px;
   }
-  
+}
