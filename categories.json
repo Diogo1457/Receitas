@@ -1,34 +1,110 @@
 {
-	"pratos-principais": {
-		"name": "Pratos Principais",
-		"recipes": ["feijoada", "lasanha"]
-	},
-	"receitas-rapidas": {
-		"name": "Preparação Rápida",
-		"recipes": []
-	},
-	"sobremesas": {
-		"name": "Sobremesas",
-		"recipes": ["bolo-cenoura", "arroz-doce"]
-	},
-	"sopas-caldos": {
-		"name": "Sopas",
-		"recipes": []
-	},
-	"saladas-acompanhamentos": {
-		"name": "Acompanhamentos",
-		"recipes": ["salada-maionese"]
-	},
-	"cafe-da-manha-brunch": {
-		"name": "Café da Manhã e Brunch",
-		"recipes": []
-	},
-	"lanches-paes": {
-		"name": "Lanches",
-		"recipes": []
-	},
-	"pratos-internacionais": {
-		"name": "Receitas Internacionais",
-		"recipes": ["paella"]
-	}
+  "pratos-principais": {
+    "name": "Pratos Principais",
+    "recipes": [
+      "feijoada",
+      "lasanha",
+      "bacalhau-com-natas",
+      "frango-assado",
+      "quiche-de-espinafre",
+      "ensopado-de-frango",
+      "moqueca-baiana",
+      "escondidinho-carne-seca"
+    ]
+  },
+  "receitas-rapidas": {
+    "name": "Preparação Rápida",
+    "recipes": [
+      "panqueca-doce",
+      "crepioca",
+      "omelete-simples",
+      "panqueca-salgada",
+      "panqueca-frutas",
+      "crepioca-salgada",
+      "panqueca-banana"
+    ]
+  },
+  "sobremesas": {
+    "name": "Sobremesas",
+    "recipes": [
+      "bolo-cenoura",
+      "arroz-doce",
+      "tiramisu",
+      "pudim-de-leite",
+      "bolo-de-chocolate",
+      "brigadeiro",
+      "mousse-de-maracuja",
+      "brownie-cacau",
+      "mousse-maracuja",
+      "pudim-coco",
+      "brigadeiro-fitness",
+      "banana-assada-canela",
+      "bolo-milho"
+    ]
+  },
+  "sopas-caldos": {
+    "name": "Sopas",
+    "recipes": [
+      "sopa-de-legumes",
+      "caldo-verde",
+      "creme-de-abobora",
+      "sopa-miso",
+      "creme-abobora",
+      "sopa-abobora-laranja",
+      "sopa-lentilha"
+    ]
+  },
+  "saladas-acompanhamentos": {
+    "name": "Acompanhamentos",
+    "recipes": [
+      "salada-maionese",
+      "salada-grega",
+      "arroz-grego",
+      "guacamole",
+      "ceviche",
+      "salada-caprese",
+      "salada-quinoa",
+      "salada-cebola-caramelizada",
+      "salada-manga",
+      "batata-recheada"
+    ]
+  },
+  "cafe-da-manha-brunch": {
+    "name": "Café da Manhã e Brunch",
+    "recipes": [
+      "pao-de-queijo",
+      "tapioca",
+      "tapioca-com-queijo",
+      "crepioca",
+      "panqueca-americana",
+      "omelete-verde",
+      "omelete-ervas-finase-queijo",
+      "mingau-aveia",
+      "crepioca-banana",
+      "cuscuz-nordestino"
+    ]
+  },
+  "lanches-paes": {
+    "name": "Lanches",
+    "recipes": [
+      "tosta-mista",
+      "bruschetta",
+      "sanduiche-natural",
+      "pao-de-alho",
+      "torrada-alho",
+      "sanduiche-natural-frango",
+      "wrap-frango"
+    ]
+  },
+  "pratos-internacionais": {
+    "name": "Receitas Internacionais",
+    "recipes": [
+      "paella",
+      "ratatouille",
+      "yakisoba-vegetariano",
+      "curry-de-graodebico",
+      "yakisoba-frango",
+      "frango-xadrez"
+    ]
+  }
 }

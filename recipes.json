@@ -1,177 +1,1415 @@
 {
-	"arroz-doce": {
-		"name": "Arroz Doce",
-		"description": "Uma sobremesa tradicional portuguesa cremosa e deliciosa.",
-		"category": "sobremesas",
-		"ingredients": [
-		"1 litro de leite",
-		"200g de arroz carolino",
-		"200g de açúcar",
-		"Casca de limão",
-		"1 pau de canela"
-		],
-		"instructions": [
-		"Lave o arroz e escorra.",
-		"Ferva o leite com a casca de limão e o pau de canela.",
-		"Adicione o arroz e cozinhe em fogo brando mexendo até ficar cremoso.",
-		"Junte o açúcar, mexa mais 5 minutos e retire do fogo.",
-		"Deixe arrefecer e sirva polvilhado com canela."
-		],
-		"side-dishes": [
-		"Canela em pó para polvilhar",
-		"Fatias de limão"
-		]
-	},
-
-	"paella": {
-		"name": "Paella",
-		"description": "Receita tradicional espanhola rica em sabores do mar e especiarias.",
-		"category": "pratos-internacionais",
-		"ingredients": [
-		"2 xícaras de arroz tipo bomba ou arbório",
-		"500g de frutos do mar",
-		"1 peito de frango em cubos",
-		"100g de ervilhas",
-		"1 pimentão vermelho em tiras",
-		"1 cebola picada",
-		"2 dentes de alho picados",
-		"1 tomate sem pele picado",
-		"1 colher de chá de açafrão",
-		"Caldo de legumes (aproximadamente 4 xícaras)",
-		"Sal, azeite e pimenta a gosto",
-		"Limão para servir"
-		],
-		"instructions": [
-		"Aqueça azeite e refogue o frango até dourar. Reserve.",
-		"Refogue a cebola, alho e pimentão. Acrescente tomate e açafrão.",
-		"Adicione o arroz e misture bem por 2 minutos.",
-		"Despeje o caldo aos poucos, mexendo levemente.",
-		"Acrescente o frango, frutos do mar e ervilhas.",
-		"Cozinhe por 20 minutos até o arroz ficar macio.",
-		"Deixe descansar 5 minutos, decore com limão e sirva."
-		],
-		"side-dishes": []
-	},
-	"feijoada": {
-		"name": "Feijoada",
-		"description": "A tradicional feijoada brasileira, perfeita para reunir a família.",
-		"category": "pratos-principais",
-		"ingredients": [
-		"500g de feijão preto",
-		"200g de carne-seca dessalgada",
-		"200g de costelinha de porco",
-		"150g de linguiça calabresa",
-		"150g de paio",
-		"1 folha de louro",
-		"1 cebola picada",
-		"2 dentes de alho picados",
-		"Sal e pimenta a gosto",
-		"Água suficiente para o cozimento"
-		],
-		"instructions": [
-		"Deixe o feijão de molho por pelo menos 8 horas.",
-		"Cozinhe as carnes salgadas previamente dessalgadas em água por 20 minutos.",
-		"Escorra e reserve.",
-		"Refogue a cebola e o alho em uma panela grande.",
-		"Adicione o feijão, as carnes e a folha de louro.",
-		"Cubra com água e cozinhe por aproximadamente 1 hora ou até que tudo esteja macio.",
-		"Ajuste o sal e finalize com pimenta a gosto."
-		],
-		"side-dishes": [
-		"Arroz branco",
-		"Farofa",
-		"Couve refogada",
-		"Laranja fatiada"
-		]
-	},
-	"lasanha": {
-		"name": "Lasanha à Bolonhesa",
-		"description": "Uma receita clássica italiana com camadas de massa, molho de carne e queijo gratinado.",
-		"category": "pratos-principais",
-		"ingredients": [
-			"500g de massa para lasanha",
-			"500g de carne moída",
-			"1 cebola picada",
-			"2 dentes de alho picados",
-			"2 latas de molho de tomate",
-			"2 colheres de sopa de óleo",
-			"Sal e pimenta a gosto",
-			"500g de queijo mussarela fatiado",
-			"200g de presunto fatiado",
-			"Queijo parmesão ralado a gosto"
-		],
-		"instructions": [
-			"Em uma panela, aqueça o óleo e refogue a cebola e o alho até dourarem.",
-			"Adicione a carne moída e cozinhe até que esteja bem dourada.",
-			"Acrescente o molho de tomate, tempere com sal e pimenta, e cozinhe por cerca de 10 minutos. Reserve.",
-			"Cozinhe a massa da lasanha conforme as instruções da embalagem. Reserve.",
-			"Em um refratário, monte a lasanha alternando camadas de molho, massa, presunto, mussarela e molho novamente.",
-			"Repita as camadas até acabarem os ingredientes, finalizando com queijo mussarela e parmesão ralado por cima.",
-			"Leve ao forno pré-aquecido a 180°C por cerca de 30 minutos ou até gratinar.",
-			"Retire do forno e deixe descansar por 10 minutos antes de servir."
-		],
-		"side-dishes": []
-	},
-	"bolo-de-cenoura": {
-		"name": "Bolo de Cenoura",
-		"description": "Clássico da culinária portuguesa com cobertura de chocolate cremosa.",
-		"category": "sobremesas",
-		"ingredients": [
-			"3 cenouras médias picadas",
-			"4 ovos",
-			"1 xícara de óleo",
-			"2 xícaras de açúcar",
-			"2 e 1/2 xícaras de farinha de trigo",
-			"1 colher de sopa de fermento em pó"
-		],
-		"instructions": [
-			"Bata no liquidificador a cenoura, os ovos e o óleo até obter uma mistura homogênea.",
-			"Adicione o açúcar e bata novamente.",
-			"Transfira a mistura para uma tigela e adicione a farinha aos poucos, mexendo bem.",
-			"Por último, acrescente o fermento e misture delicadamente.",
-			"Despeje a massa em uma forma untada e enfarinhada.",
-			"Leve ao forno preaquecido a 180°C por cerca de 40 minutos."
-		],
-		"side-dishes": [],
-		"topping": {
-			"name": "Cobertura de Chocolate",
-			"ingredients": [
-			"1 colher de sopa de manteiga",
-			"3 colheres de sopa de chocolate em pó",
-			"5 colheres de sopa de açúcar",
-			"2 colheres de sopa de leite"
-			],
-			"instructions": [
-			"Leve ao fogo médio: manteiga, chocolate em pó, açúcar e leite.",
-			"Misture bem até ferver e despeje sobre o bolo ainda quente."
-			]
-		}
-	},
-	"salada-maionese": {
-		"name": "Salada de Maionese",
-		"description": "Clássico acompanhamento brasileiro, refrescante e saboroso. Ideal para churrascos, almoços em família ou dias quentes.",
-		"category": "saladas-acompanhamentos",
-		"ingredients": [
-		  "4 batatas médias",
-		  "2 cenouras médias",
-		  "1 xícara de ervilhas (congeladas ou em conserva)",
-		  "1/2 xícara de milho (opcional)",
-		  "1 maçã pequena (opcional, cortada em cubinhos)",
-		  "1/2 xícara de maionese",
-		  "2 colheres de sopa de creme de leite (opcional)",
-		  "Sal e pimenta a gosto",
-		  "Salsinha picada para decorar"
-		],
-		"instructions": [
-		  "Descasque e corte as batatas e as cenouras em cubinhos.",
-		  "Cozinhe as batatas e cenouras em água com sal até ficarem macias, mas firmes. Escorra e deixe esfriar.",
-		  "Se usar ervilhas congeladas, cozinhe por 2 minutos em água quente e escorra. Se forem em conserva, apenas escorra.",
-		  "Em uma tigela grande, misture as batatas, cenouras, ervilhas e milho (se usar).",
-		  "Adicione a maçã picada, se desejar um toque adocicado.",
-		  "Incorpore a maionese (e o creme de leite, se usar), misturando bem até envolver todos os ingredientes.",
-		  "Ajuste o sal e a pimenta. Leve à geladeira por pelo menos 30 minutos antes de servir.",
-		  "Decore com salsinha picada e sirva gelada."
-		]
-	}
+  "arroz-doce": {
+    "name": "Arroz Doce",
+    "description": "Uma sobremesa tradicional portuguesa cremosa e deliciosa.",
+    "category": "sobremesas",
+    "ingredients": [
+      "1 litro de leite",
+      "200g de arroz carolino",
+      "200g de açúcar",
+      "Casca de limão",
+      "1 pau de canela"
+    ],
+    "instructions": [
+      "Lave o arroz e escorra.",
+      "Ferva o leite com a casca de limão e o pau de canela.",
+      "Adicione o arroz e cozinhe em fogo brando mexendo até ficar cremoso.",
+      "Junte o açúcar, mexa mais 5 minutos e retire do fogo.",
+      "Deixe arrefecer e sirva polvilhado com canela."
+    ],
+    "side-dishes": [
+      "Canela em pó para polvilhar",
+      "Fatias de limão"
+    ]
+  },
+  "paella": {
+    "name": "Paella",
+    "description": "Receita tradicional espanhola rica em sabores do mar e especiarias.",
+    "category": "pratos-internacionais",
+    "ingredients": [
+      "2 xícaras de arroz tipo bomba ou arbório",
+      "500g de frutos do mar",
+      "1 peito de frango em cubos",
+      "100g de ervilhas",
+      "1 pimentão vermelho em tiras",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1 tomate sem pele picado",
+      "1 colher de chá de açafrão",
+      "Caldo de legumes (aproximadamente 4 xícaras)",
+      "Sal, azeite e pimenta a gosto",
+      "Limão para servir"
+    ],
+    "instructions": [
+      "Aqueça azeite e refogue o frango até dourar. Reserve.",
+      "Refogue a cebola, alho e pimentão. Acrescente tomate e açafrão.",
+      "Adicione o arroz e misture bem por 2 minutos.",
+      "Despeje o caldo aos poucos, mexendo levemente.",
+      "Acrescente o frango, frutos do mar e ervilhas.",
+      "Cozinhe por 20 minutos até o arroz ficar macio.",
+      "Deixe descansar 5 minutos, decore com limão e sirva."
+    ],
+    "side-dishes": []
+  },
+  "feijoada": {
+    "name": "Feijoada",
+    "description": "A tradicional feijoada brasileira, perfeita para reunir a família.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "500g de feijão preto",
+      "200g de carne-seca dessalgada",
+      "200g de costelinha de porco",
+      "150g de linguiça calabresa",
+      "150g de paio",
+      "1 folha de louro",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Água suficiente para o cozimento"
+    ],
+    "instructions": [
+      "Deixe o feijão de molho por pelo menos 8 horas.",
+      "Cozinhe as carnes salgadas previamente dessalgadas em água por 20 minutos.",
+      "Escorra e reserve.",
+      "Refogue a cebola e o alho em uma panela grande.",
+      "Adicione o feijão, as carnes e a folha de louro.",
+      "Cubra com água e cozinhe por aproximadamente 1 hora ou até que tudo esteja macio.",
+      "Ajuste o sal e finalize com pimenta a gosto."
+    ],
+    "side-dishes": [
+      "Arroz branco",
+      "Farofa",
+      "Couve refogada",
+      "Laranja fatiada"
+    ]
+  },
+  "lasanha": {
+    "name": "Lasanha à Bolonhesa",
+    "description": "Uma receita clássica italiana com camadas de massa, molho de carne e queijo gratinado.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "500g de massa para lasanha",
+      "500g de carne moída",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "2 latas de molho de tomate",
+      "2 colheres de sopa de óleo",
+      "Sal e pimenta a gosto",
+      "500g de queijo mussarela fatiado",
+      "200g de presunto fatiado",
+      "Queijo parmesão ralado a gosto"
+    ],
+    "instructions": [
+      "Em uma panela, aqueça o óleo e refogue a cebola e o alho até dourarem.",
+      "Adicione a carne moída e cozinhe até que esteja bem dourada.",
+      "Acrescente o molho de tomate, tempere com sal e pimenta, e cozinhe por cerca de 10 minutos. Reserve.",
+      "Cozinhe a massa da lasanha conforme as instruções da embalagem. Reserve.",
+      "Em um refratário, monte a lasanha alternando camadas de molho, massa, presunto, mussarela e molho novamente.",
+      "Repita as camadas até acabarem os ingredientes, finalizando com queijo mussarela e parmesão ralado por cima.",
+      "Leve ao forno pré-aquecido a 180°C por cerca de 30 minutos ou até gratinar.",
+      "Retire do forno e deixe descansar por 10 minutos antes de servir."
+    ],
+    "side-dishes": []
+  },
+  "bolo-de-cenoura": {
+    "name": "Bolo de Cenoura",
+    "description": "Clássico da culinária portuguesa com cobertura de chocolate cremosa.",
+    "category": "sobremesas",
+    "ingredients": [
+      "3 cenouras médias picadas",
+      "4 ovos",
+      "1 xícara de óleo",
+      "2 xícaras de açúcar",
+      "2 e 1/2 xícaras de farinha de trigo",
+      "1 colher de sopa de fermento em pó"
+    ],
+    "instructions": [
+      "Bata no liquidificador a cenoura, os ovos e o óleo até obter uma mistura homogênea.",
+      "Adicione o açúcar e bata novamente.",
+      "Transfira a mistura para uma tigela e adicione a farinha aos poucos, mexendo bem.",
+      "Por último, acrescente o fermento e misture delicadamente.",
+      "Despeje a massa em uma forma untada e enfarinhada.",
+      "Leve ao forno preaquecido a 180°C por cerca de 40 minutos."
+    ],
+    "side-dishes": [],
+    "topping": {
+      "name": "Cobertura de Chocolate",
+      "ingredients": [
+        "1 colher de sopa de manteiga",
+        "3 colheres de sopa de chocolate em pó",
+        "5 colheres de sopa de açúcar",
+        "2 colheres de sopa de leite"
+      ],
+      "instructions": [
+        "Leve ao fogo médio: manteiga, chocolate em pó, açúcar e leite.",
+        "Misture bem até ferver e despeje sobre o bolo ainda quente."
+      ]
+    }
+  },
+  "salada-maionese": {
+    "name": "Salada de Maionese",
+    "description": "Clássico acompanhamento brasileiro, refrescante e saboroso. Ideal para churrascos, almoços em família ou dias quentes.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "4 batatas médias",
+      "2 cenouras médias",
+      "1 xícara de ervilhas (congeladas ou em conserva)",
+      "1/2 xícara de milho (opcional)",
+      "1 maçã pequena (opcional, cortada em cubinhos)",
+      "1/2 xícara de maionese",
+      "2 colheres de sopa de creme de leite (opcional)",
+      "Sal e pimenta a gosto",
+      "Salsinha picada para decorar"
+    ],
+    "instructions": [
+      "Descasque e corte as batatas e as cenouras em cubinhos.",
+      "Cozinhe as batatas e cenouras em água com sal até ficarem macias, mas firmes. Escorra e deixe esfriar.",
+      "Se usar ervilhas congeladas, cozinhe por 2 minutos em água quente e escorra. Se forem em conserva, apenas escorra.",
+      "Em uma tigela grande, misture as batatas, cenouras, ervilhas e milho (se usar).",
+      "Adicione a maçã picada, se desejar um toque adocicado.",
+      "Incorpore a maionese (e o creme de leite, se usar), misturando bem até envolver todos os ingredientes.",
+      "Ajuste o sal e a pimenta. Leve à geladeira por pelo menos 30 minutos antes de servir.",
+      "Decore com salsinha picada e sirva gelada."
+    ]
+  },
+  "bacalhau-com-natas": {
+    "name": "Bacalhau com Natas",
+    "description": "Tradicional prato português com bacalhau desfiado, cremoso e gratinado.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "500g de bacalhau dessalgado e desfiado",
+      "500g de batatas em cubos fritas",
+      "2 cebolas em rodelas",
+      "2 dentes de alho picados",
+      "2 colheres de sopa de azeite",
+      "200ml de natas (creme de leite)",
+      "200ml de leite",
+      "1 colher de sopa de farinha de trigo",
+      "Noz-moscada, sal e pimenta a gosto",
+      "Queijo ralado para gratinar"
+    ],
+    "instructions": [
+      "Refogue a cebola e o alho no azeite até dourarem.",
+      "Adicione o bacalhau e misture bem.",
+      "Acrescente a farinha, o leite e as natas, mexendo até engrossar.",
+      "Tempere com sal, pimenta e noz-moscada.",
+      "Junte as batatas fritas e envolva bem.",
+      "Transfira para um refratário, cubra com queijo e leve ao forno para gratinar."
+    ],
+    "side-dishes": [
+      "Salada verde",
+      "Pão português"
+    ]
+  },
+  "panqueca-doce": {
+    "name": "Panqueca Doce",
+    "description": "Sobremesa rápida e versátil com frutas e mel ou chocolate.",
+    "category": "receitas-rapidas",
+    "ingredients": [
+      "1 xícara de farinha de trigo",
+      "1 xícara de leite",
+      "1 ovo",
+      "1 colher de sopa de açúcar",
+      "1 colher de chá de essência de baunilha",
+      "Manteiga para untar"
+    ],
+    "instructions": [
+      "Misture todos os ingredientes em uma tigela até obter uma massa homogênea.",
+      "Aqueça uma frigideira untada com manteiga e despeje uma concha da massa.",
+      "Cozinhe por 2 minutos de cada lado ou até dourar.",
+      "Sirva com mel, chocolate, frutas ou doce de leite."
+    ],
+    "side-dishes": [
+      "Banana fatiada",
+      "Morango",
+      "Nutella"
+    ]
+  },
+  "sopa-de-legumes": {
+    "name": "Sopa de Legumes",
+    "description": "Sopa nutritiva e reconfortante com legumes frescos.",
+    "category": "sopas-caldos",
+    "ingredients": [
+      "1 batata picada",
+      "1 cenoura picada",
+      "1 chuchu picado",
+      "1 abobrinha picada",
+      "1/2 cebola picada",
+      "2 dentes de alho picados",
+      "1 litro de água",
+      "1 colher de sopa de azeite",
+      "Sal, pimenta e salsinha a gosto"
+    ],
+    "instructions": [
+      "Refogue a cebola e o alho no azeite até dourar.",
+      "Adicione os legumes e refogue por mais 5 minutos.",
+      "Adicione a água e cozinhe até os legumes ficarem macios.",
+      "Tempere com sal, pimenta e salsinha. Sirva quente."
+    ],
+    "side-dishes": [
+      "Pão integral",
+      "Torradas"
+    ]
+  },
+  "tosta-mista": {
+    "name": "Tosta Mista",
+    "description": "Sanduíche quente de presunto e queijo, crocante por fora e derretido por dentro.",
+    "category": "lanches-paes",
+    "ingredients": [
+      "2 fatias de pão de forma",
+      "1 fatia de presunto",
+      "1 fatia de queijo",
+      "Manteiga para untar"
+    ],
+    "instructions": [
+      "Monte o sanduíche com o presunto e o queijo entre as fatias de pão.",
+      "Unte o lado de fora do pão com manteiga.",
+      "Leve à sanduicheira ou frigideira até dourar dos dois lados e o queijo derreter.",
+      "Sirva imediatamente."
+    ],
+    "side-dishes": [
+      "Batata frita",
+      "Suco natural"
+    ]
+  },
+  "pao-de-queijo": {
+    "name": "Pão de Queijo",
+    "description": "Tradicional quitute mineiro, crocante por fora e macio por dentro.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "250g de polvilho doce",
+      "100ml de leite",
+      "50ml de óleo",
+      "1 ovo",
+      "100g de queijo parmesão ralado",
+      "Sal a gosto"
+    ],
+    "instructions": [
+      "Aqueça o leite com o óleo e despeje sobre o polvilho em uma tigela. Misture bem.",
+      "Adicione o ovo, o queijo e o sal. Misture até formar uma massa homogênea.",
+      "Faça bolinhas e disponha em uma assadeira untada.",
+      "Asse em forno pré-aquecido a 180°C por 20-25 minutos ou até dourar."
+    ],
+    "side-dishes": [
+      "Café",
+      "Requeijão"
+    ]
+  },
+  "frango-assado": {
+    "name": "Frango Assado",
+    "description": "Frango suculento assado com batatas e ervas aromáticas.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "1 frango inteiro (aprox. 1.5kg)",
+      "4 batatas médias cortadas em cubos",
+      "4 dentes de alho picados",
+      "1 colher de sopa de páprica",
+      "1 colher de chá de alecrim",
+      "Sal e pimenta a gosto",
+      "Azeite"
+    ],
+    "instructions": [
+      "Tempere o frango com alho, páprica, alecrim, sal, pimenta e azeite.",
+      "Distribua as batatas ao redor do frango em uma assadeira.",
+      "Asse em forno pré-aquecido a 200°C por 1h30 ou até dourar.",
+      "Sirva com os sucos do assado regando por cima."
+    ],
+    "side-dishes": [
+      "Salada verde"
+    ]
+  },
+  "tiramisu": {
+    "name": "Tiramisù",
+    "description": "Clássica sobremesa italiana com camadas de creme e biscoito embebido em café.",
+    "category": "sobremesas",
+    "ingredients": [
+      "250g de queijo mascarpone",
+      "3 ovos (gemas e claras separadas)",
+      "3 colheres de sopa de açúcar",
+      "200g de biscoitos tipo champanhe",
+      "1 xícara de café forte",
+      "Cacau em pó para polvilhar"
+    ],
+    "instructions": [
+      "Bata as gemas com o açúcar até obter um creme claro.",
+      "Adicione o mascarpone e misture bem.",
+      "Bata as claras em neve e incorpore delicadamente ao creme.",
+      "Passe os biscoitos no café e monte camadas alternando biscoitos e creme.",
+      "Finalize com creme e cacau por cima. Leve à geladeira por 4 horas."
+    ],
+    "side-dishes": []
+  },
+  "crepioca": {
+    "name": "Crepioca",
+    "description": "Alternativa proteica ao pão, feita com goma de tapioca e ovo.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "1 ovo",
+      "2 colheres de sopa de goma de tapioca",
+      "Sal a gosto",
+      "Recheio a gosto (queijo, frango, etc.)"
+    ],
+    "instructions": [
+      "Misture o ovo com a goma de tapioca e sal.",
+      "Despeje em uma frigideira e cozinhe dos dois lados.",
+      "Adicione o recheio desejado, dobre e sirva."
+    ],
+    "side-dishes": []
+  },
+  "caldo-verde": {
+    "name": "Caldo Verde",
+    "description": "Sopa portuguesa reconfortante com couve e chouriço.",
+    "category": "sopas-caldos",
+    "ingredients": [
+      "4 batatas médias",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1 litro de água",
+      "200g de couve cortada em tiras finas",
+      "100g de chouriço em rodelas",
+      "Sal e azeite a gosto"
+    ],
+    "instructions": [
+      "Cozinhe as batatas, cebola e alho na água até amaciarem.",
+      "Bata no liquidificador e retorne à panela.",
+      "Adicione a couve e o chouriço e cozinhe por mais 10 minutos.",
+      "Finalize com azeite e sirva quente."
+    ],
+    "side-dishes": [
+      "Pão caseiro"
+    ]
+  },
+  "pudim-de-leite": {
+    "name": "Pudim de Leite Condensado",
+    "description": "Sobremesa tradicional, com textura cremosa e cobertura de caramelo.",
+    "category": "sobremesas",
+    "ingredients": [
+      "1 lata de leite condensado",
+      "2 medidas da lata de leite",
+      "3 ovos",
+      "1 xícara de açúcar (para o caramelo)"
+    ],
+    "instructions": [
+      "Faça um caramelo com o açúcar e espalhe na forma.",
+      "Bata os demais ingredientes no liquidificador.",
+      "Despeje na forma e leve ao forno em banho-maria por 1 hora.",
+      "Deixe esfriar e leve à geladeira por pelo menos 4 horas antes de desenformar."
+    ],
+    "side-dishes": []
+  },
+  "tapioca": {
+    "name": "Tapioca com Recheio",
+    "description": "Prática e rápida, ideal para café da manhã ou lanche.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "3 colheres de sopa de goma de tapioca hidratada",
+      "Recheio a gosto (queijo, coco, leite condensado, etc.)"
+    ],
+    "instructions": [
+      "Aqueça uma frigideira antiaderente.",
+      "Espalhe a goma de tapioca uniformemente.",
+      "Cozinhe até formar uma massa firme.",
+      "Adicione o recheio e dobre ao meio.",
+      "Sirva imediatamente."
+    ],
+    "side-dishes": []
+  },
+  "salada-grega": {
+    "name": "Salada Grega",
+    "description": "Colorida, refrescante e cheia de sabor.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "1 pepino fatiado",
+      "2 tomates cortados",
+      "1/2 cebola roxa fatiada",
+      "100g de queijo feta",
+      "Azeitonas pretas a gosto",
+      "Azeite, orégãos, sal e pimenta"
+    ],
+    "instructions": [
+      "Em uma tigela, misture todos os ingredientes.",
+      "Regue com azeite e tempere com orégãos, sal e pimenta.",
+      "Sirva fresca."
+    ],
+    "side-dishes": []
+  },
+  "quiche-de-espinafre": {
+    "name": "Quiche de Espinafre",
+    "description": "Torta salgada deliciosa com recheio cremoso.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "1 massa pronta para quiche",
+      "3 ovos",
+      "200ml de creme de leite",
+      "150g de espinafre refogado",
+      "100g de queijo ralado",
+      "Sal e noz-moscada a gosto"
+    ],
+    "instructions": [
+      "Forre a forma com a massa e reserve.",
+      "Misture os ovos, o creme de leite, o queijo e o espinafre.",
+      "Tempere com sal e noz-moscada.",
+      "Despeje sobre a massa e asse a 180°C por 30 minutos."
+    ],
+    "side-dishes": [
+      "Salada verde"
+    ]
+  },
+  "bolo-de-chocolate": {
+    "name": "Bolo de Chocolate Simples",
+    "description": "Fofinho e perfeito para acompanhar um café da tarde.",
+    "category": "sobremesas",
+    "ingredients": [
+      "3 ovos",
+      "1 xícara de leite",
+      "1/2 xícara de óleo",
+      "1 xícara de açúcar",
+      "1 xícara de chocolate em pó",
+      "2 xícaras de farinha de trigo",
+      "1 colher de sopa de fermento"
+    ],
+    "instructions": [
+      "Bata os ovos, leite, óleo e açúcar.",
+      "Adicione o chocolate e a farinha aos poucos.",
+      "Misture o fermento por último.",
+      "Despeje em forma untada e asse por 35 minutos a 180°C."
+    ],
+    "side-dishes": [
+      "Cobertura de brigadeiro"
+    ]
+  },
+  "bruschetta": {
+    "name": "Bruschetta Italiana",
+    "description": "Entrada rústica com tomate e manjericão sobre pão crocante.",
+    "category": "lanches-paes",
+    "ingredients": [
+      "Fatias de pão italiano",
+      "2 tomates maduros picados",
+      "1 dente de alho",
+      "Folhas de manjericão fresco",
+      "Azeite, sal e pimenta"
+    ],
+    "instructions": [
+      "Toste as fatias de pão.",
+      "Esfregue alho nas fatias ainda quentes.",
+      "Misture tomate, manjericão, azeite, sal e pimenta.",
+      "Coloque a mistura sobre os pães e sirva."
+    ],
+    "side-dishes": []
+  },
+  "omelete-simples": {
+    "name": "Omelete Simples",
+    "description": "Receita rápida e nutritiva para qualquer refeição do dia.",
+    "category": "receitas-rapidas",
+    "ingredients": [
+      "2 ovos",
+      "1 colher de sopa de leite",
+      "Sal e pimenta a gosto",
+      "1 colher de sopa de óleo",
+      "Queijo ralado e ervas (opcional)"
+    ],
+    "instructions": [
+      "Bata os ovos com o leite, sal e pimenta.",
+      "Aqueça o óleo em uma frigideira e despeje a mistura.",
+      "Cozinhe em fogo médio até dourar e virar do outro lado.",
+      "Adicione queijo e ervas se desejar. Dobre e sirva."
+    ],
+    "side-dishes": [
+      "Pão torrado",
+      "Salada verde"
+    ]
+  },
+  "creme-de-abobora": {
+    "name": "Creme de Abóbora",
+    "description": "Sopa cremosa de abóbora, perfeita para noites frias.",
+    "category": "sopas-caldos",
+    "ingredients": [
+      "500g de abóbora em cubos",
+      "1 batata média",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1 colher de sopa de azeite",
+      "Sal, pimenta e noz-moscada a gosto",
+      "Água ou caldo de legumes"
+    ],
+    "instructions": [
+      "Refogue a cebola e o alho no azeite.",
+      "Adicione a abóbora e a batata, cubra com água e cozinhe até ficarem macias.",
+      "Bata no liquidificador até obter um creme liso.",
+      "Tempere e aqueça novamente antes de servir."
+    ],
+    "side-dishes": [
+      "Croutons",
+      "Pão integral"
+    ]
+  },
+  "brigadeiro": {
+    "name": "Brigadeiro",
+    "description": "Doce típico brasileiro feito com leite condensado e chocolate.",
+    "category": "sobremesas",
+    "ingredients": [
+      "1 lata de leite condensado",
+      "1 colher de sopa de manteiga",
+      "3 colheres de sopa de chocolate em pó",
+      "Chocolate granulado para enrolar"
+    ],
+    "instructions": [
+      "Misture o leite condensado, manteiga e chocolate em uma panela.",
+      "Cozinhe em fogo baixo mexendo sempre até desgrudar do fundo.",
+      "Deixe esfriar, faça bolinhas e passe no granulado."
+    ],
+    "side-dishes": []
+  },
+  "sanduiche-natural": {
+    "name": "Sanduíche Natural",
+    "description": "Lanche leve e saudável, ótimo para o verão.",
+    "category": "lanches-paes",
+    "ingredients": [
+      "2 fatias de pão integral",
+      "2 colheres de sopa de frango desfiado",
+      "1 colher de sopa de maionese",
+      "1 folha de alface",
+      "2 fatias de tomate",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+      "Misture o frango com a maionese, sal e pimenta.",
+      "Monte o sanduíche com o alface, tomate e a pasta de frango.",
+      "Feche com a outra fatia de pão e sirva."
+    ],
+    "side-dishes": [
+      "Suco natural"
+    ]
+  },
+  "mousse-de-maracuja": {
+    "name": "Mousse de Maracujá",
+    "description": "Sobremesa leve e refrescante com sabor tropical.",
+    "category": "sobremesas",
+    "ingredients": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1 medida da lata de suco concentrado de maracujá"
+    ],
+    "instructions": [
+      "Bata todos os ingredientes no liquidificador por 2 minutos.",
+      "Coloque em taças individuais e leve à geladeira por 3 horas.",
+      "Decore com polpa de maracujá antes de servir, se desejar."
+    ],
+    "side-dishes": []
+  },
+  "arroz-grego": {
+    "name": "Arroz Grego",
+    "description": "Acompanhamento colorido com legumes, ideal para festas.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "2 xícaras de arroz cozido",
+      "1/2 xícara de cenoura picada",
+      "1/2 xícara de pimentão picado",
+      "1/2 xícara de ervilha",
+      "1/2 cebola picada",
+      "1 colher de sopa de azeite",
+      "Sal a gosto"
+    ],
+    "instructions": [
+      "Refogue a cebola e os legumes no azeite.",
+      "Adicione o arroz cozido e misture bem.",
+      "Ajuste o sal e sirva quente ou frio."
+    ],
+    "side-dishes": []
+  },
+  "tapioca-com-queijo": {
+    "name": "Tapioca com Queijo",
+    "description": "Café da manhã típico nordestino, simples e saboroso.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "3 colheres de sopa de goma de tapioca hidratada",
+      "50g de queijo coalho ou mussarela"
+    ],
+    "instructions": [
+      "Aqueça uma frigideira e espalhe a goma formando um disco.",
+      "Quando firmar, adicione o queijo e dobre a tapioca.",
+      "Cozinhe mais um pouco até o queijo derreter. Sirva quente."
+    ],
+    "side-dishes": [
+      "Café",
+      "Suco de laranja"
+    ]
+  },
+  "ensopado-de-frango": {
+    "name": "Ensopado de Frango",
+    "description": "Prato principal simples e cheio de sabor, perfeito com arroz.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "500g de coxa e sobrecoxa de frango",
+      "2 tomates picados",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1/2 pimentão picado",
+      "1 folha de louro",
+      "1 colher de sopa de óleo",
+      "Sal, pimenta e cheiro-verde"
+    ],
+    "instructions": [
+      "Refogue a cebola, o alho e o pimentão no óleo.",
+      "Adicione o frango e doure por todos os lados.",
+      "Junte os tomates, o louro e água até cobrir.",
+      "Cozinhe até o frango ficar macio e o molho encorpar.",
+      "Finalize com cheiro-verde picado."
+    ],
+    "side-dishes": [
+      "Arroz branco"
+    ]
+  },
+  "ratatouille": {
+    "name": "Ratatouille",
+    "description": "Prato francês à base de legumes grelhados em camadas, saudável e colorido.",
+    "category": "pratos-internacionais",
+    "ingredients": [
+      "1 berinjela",
+      "1 abobrinha",
+      "1 pimentão vermelho",
+      "1 tomate",
+      "1 cebola",
+      "2 dentes de alho",
+      "3 colheres de sopa de azeite",
+      "Sal, pimenta, ervas de Provence"
+    ],
+    "instructions": [
+      "Corte todos os legumes em rodelas finas.",
+      "Refogue alho e cebola com azeite em uma forma.",
+      "Monte camadas alternadas de legumes e regue com azeite.",
+      "Tempere com sal, pimenta e ervas.",
+      "Cubra com papel alumínio e leve ao forno por 40 minutos a 180°C."
+    ],
+    "side-dishes": [
+      "Arroz branco",
+      "Pão francês"
+    ]
+  },
+  "guacamole": {
+    "name": "Guacamole",
+    "description": "Molho mexicano cremoso à base de abacate, ideal para acompanhar tortilhas.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "2 abacates maduros",
+      "1 tomate picado",
+      "1/2 cebola roxa picada",
+      "Suco de 1 limão",
+      "Coentro picado",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+      "Amasse o abacate com um garfo.",
+      "Adicione os demais ingredientes e misture bem.",
+      "Sirva imediatamente com tortilhas ou nachos."
+    ],
+    "side-dishes": [
+      "Nachos",
+      "Tortilhas"
+    ]
+  },
+  "yakisoba-vegetariano": {
+    "name": "Yakisoba Vegetariano",
+    "description": "Prato japonês com legumes e macarrão oriental ao molho shoyu.",
+    "category": "pratos-internacionais",
+    "ingredients": [
+      "200g de macarrão para yakisoba",
+      "1 cenoura em tiras",
+      "1/2 brócolis",
+      "1/2 couve-flor",
+      "1/2 cebola fatiada",
+      "1/2 pimentão",
+      "Molho shoyu, óleo de gergelim e amido de milho"
+    ],
+    "instructions": [
+      "Cozinhe o macarrão conforme instruções da embalagem.",
+      "Refogue os legumes no óleo de gergelim.",
+      "Adicione o molho shoyu e engrosse com amido.",
+      "Misture o macarrão aos legumes e sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "pao-de-alho": {
+    "name": "Pão de Alho",
+    "description": "Clássico brasileiro em churrascos, crocante por fora e cremoso por dentro.",
+    "category": "lanches-paes",
+    "ingredients": [
+      "4 pães franceses",
+      "3 colheres de sopa de maionese",
+      "2 colheres de sopa de manteiga",
+      "3 dentes de alho amassados",
+      "Cheiro-verde a gosto",
+      "Queijo ralado (opcional)"
+    ],
+    "instructions": [
+      "Misture maionese, manteiga, alho e cheiro-verde.",
+      "Corte os pães sem separar totalmente e recheie com a mistura.",
+      "Salpique queijo se desejar e leve ao forno até dourar."
+    ],
+    "side-dishes": []
+  },
+  "curry-de-graodebico": {
+    "name": "Curry de Grão-de-Bico",
+    "description": "Prato indiano vegano, rico em proteínas e temperos.",
+    "category": "pratos-internacionais",
+    "ingredients": [
+      "1 xícara de grão-de-bico cozido",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "1 colher de chá de gengibre ralado",
+      "1 colher de sopa de curry",
+      "200ml de leite de coco",
+      "Coentro fresco, sal e óleo"
+    ],
+    "instructions": [
+      "Refogue cebola, alho e gengibre no óleo.",
+      "Adicione o curry, o grão-de-bico e o leite de coco.",
+      "Cozinhe por 10 minutos até encorpar. Finalize com coentro."
+    ],
+    "side-dishes": [
+      "Arroz basmati"
+    ]
+  },
+  "ceviche": {
+    "name": "Ceviche",
+    "description": "Prato peruano com peixe cru marinado em limão e especiarias.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "300g de peixe branco (tilápia ou linguado)",
+      "Suco de 4 limões",
+      "1 cebola roxa fatiada",
+      "Coentro picado",
+      "1 pimenta dedo-de-moça sem sementes",
+      "Sal a gosto"
+    ],
+    "instructions": [
+      "Corte o peixe em cubos e tempere com o suco de limão.",
+      "Adicione cebola, coentro, pimenta e sal.",
+      "Deixe marinar por pelo menos 15 minutos e sirva fresco."
+    ],
+    "side-dishes": [
+      "Batata-doce cozida",
+      "Milho"
+    ]
+  },
+  "panqueca-americana": {
+    "name": "Panqueca Americana",
+    "description": "Panquecas fofinhas ideais para o café da manhã ou brunch.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "1 xícara de farinha de trigo",
+      "1 colher de sopa de açúcar",
+      "1 colher de chá de fermento",
+      "1 ovo",
+      "1 xícara de leite",
+      "1 colher de sopa de manteiga derretida"
+    ],
+    "instructions": [
+      "Misture todos os ingredientes até formar uma massa homogênea.",
+      "Despeje porções em uma frigideira antiaderente e vire quando borbulhar.",
+      "Sirva com mel, frutas ou manteiga."
+    ],
+    "side-dishes": [
+      "Frutas vermelhas",
+      "Maple syrup"
+    ]
+  },
+  "sopa-miso": {
+    "name": "Sopa de Missô",
+    "description": "Sopa japonesa leve à base de pasta de soja fermentada.",
+    "category": "sopas-caldos",
+    "ingredients": [
+      "2 colheres de sopa de pasta de missô",
+      "500ml de água",
+      "Tofu em cubos",
+      "Cebolinha picada",
+      "Alga wakame (opcional)"
+    ],
+    "instructions": [
+      "Aqueça a água sem deixar ferver e dissolva o missô.",
+      "Adicione o tofu e a alga e aqueça por mais 2 minutos.",
+      "Sirva com cebolinha por cima."
+    ],
+    "side-dishes": []
+  },
+  "salada-caprese": {
+    "name": "Salada Caprese",
+    "description": "Salada italiana simples com tomate, mussarela de búfala e manjericão.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "2 tomates grandes em rodelas",
+      "Mussarela de búfala em fatias",
+      "Folhas de manjericão fresco",
+      "Azeite, sal e pimenta"
+    ],
+    "instructions": [
+      "Monte camadas alternadas de tomate, queijo e manjericão.",
+      "Regue com azeite e tempere com sal e pimenta a gosto.",
+      "Sirva imediatamente."
+    ],
+    "side-dishes": []
+  },
+  "moqueca-baiana": {
+    "name": "Moqueca Baiana",
+    "description": "Deliciosa moqueca com peixe, dendê e leite de coco típica da Bahia.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "500g de peixe branco em postas",
+      "2 tomates maduros",
+      "1 pimentão vermelho",
+      "1 cebola",
+      "Leite de coco",
+      "Azeite de dendê",
+      "Coentro, sal e pimenta a gosto"
+    ],
+    "instructions": [
+      "Tempere o peixe com sal e pimenta.",
+      "Refogue cebola, tomate e pimentão no azeite de dendê.",
+      "Acrescente o peixe e o leite de coco, cozinhe até o peixe estar macio.",
+      "Finalize com coentro picado e sirva com arroz branco."
+    ],
+    "side-dishes": [
+      "Arroz branco",
+      "Farofa"
+    ]
+  },
+  "panqueca-salgada": {
+    "name": "Panqueca Salgada",
+    "description": "Panqueca recheada com frango desfiado e molho cremoso.",
+    "category": "receitas-rapidas",
+    "ingredients": [
+      "1 xícara de farinha de trigo",
+      "1 ovo",
+      "1 xícara de leite",
+      "Frango desfiado",
+      "Molho branco",
+      "Queijo ralado"
+    ],
+    "instructions": [
+      "Misture a farinha, ovo e leite para fazer a massa.",
+      "Cozinhe as panquecas em frigideira antiaderente.",
+      "Recheie com frango e molho branco, enrole e cubra com queijo.",
+      "Leve ao forno para gratinar."
+    ],
+    "side-dishes": []
+  },
+  "brownie-cacau": {
+    "name": "Brownie de Cacau",
+    "description": "Brownie cremoso e intenso de cacau para os amantes de chocolate.",
+    "category": "sobremesas",
+    "ingredients": [
+      "200g de chocolate meio amargo",
+      "150g de manteiga",
+      "3 ovos",
+      "1 xícara de açúcar",
+      "1/2 xícara de farinha de trigo",
+      "Cacau em pó"
+    ],
+    "instructions": [
+      "Derreta o chocolate com a manteiga.",
+      "Misture os ovos e o açúcar, adicione o chocolate derretido.",
+      "Acrescente a farinha e o cacau, misture até homogeneizar.",
+      "Asse em forno médio por 25 minutos."
+    ],
+    "side-dishes": [
+      "Sorvete de baunilha"
+    ]
+  },
+  "creme-abobora": {
+    "name": "Creme de Abóbora com Gengibre",
+    "description": "Sopa cremosa e levemente picante com gengibre fresco.",
+    "category": "sopas-caldos",
+    "ingredients": [
+      "500g de abóbora descascada e picada",
+      "1 cebola picada",
+      "1 pedaço pequeno de gengibre",
+      "Caldo de legumes",
+      "Sal e pimenta"
+    ],
+    "instructions": [
+      "Refogue cebola e gengibre.",
+      "Acrescente a abóbora e o caldo, cozinhe até amaciar.",
+      "Bata no liquidificador até ficar cremoso.",
+      "Ajuste o sal e sirva quente."
+    ],
+    "side-dishes": [
+      "Croutons"
+    ]
+  },
+  "salada-quinoa": {
+    "name": "Salada de Quinoa Colorida",
+    "description": "Salada leve com quinoa, legumes frescos e molho de limão.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "1 xícara de quinoa cozida",
+      "Tomate cereja",
+      "Pepino",
+      "Cenoura ralada",
+      "Salsinha",
+      "Suco de limão",
+      "Azeite, sal e pimenta"
+    ],
+    "instructions": [
+      "Misture todos os legumes com a quinoa cozida.",
+      "Tempere com azeite, limão, sal e pimenta.",
+      "Sirva fria."
+    ],
+    "side-dishes": []
+  },
+  "omelete-verde": {
+    "name": "Omelete Verde",
+    "description": "Omelete rápida com espinafre e queijo, ideal para o café da manhã.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "2 ovos",
+      "Espinafre picado",
+      "Queijo ralado",
+      "Sal e pimenta"
+    ],
+    "instructions": [
+      "Bata os ovos com sal e pimenta.",
+      "Acrescente o espinafre e queijo.",
+      "Cozinhe em frigideira até firmar.",
+      "Sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "torrada-alho": {
+    "name": "Torrada com Alho e Ervas",
+    "description": "Pão torrado com azeite, alho e ervas finas para acompanhar lanches.",
+    "category": "lanches-paes",
+    "ingredients": [
+      "Fatias de pão",
+      "Azeite",
+      "Alho picado",
+      "Ervas finas"
+    ],
+    "instructions": [
+      "Pincele azeite nas fatias de pão.",
+      "Espalhe alho e ervas.",
+      "Leve ao forno até dourar.",
+      "Sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "yakisoba-frango": {
+    "name": "Yakisoba de Frango",
+    "description": "Clássico prato japonês com macarrão, legumes e frango.",
+    "category": "pratos-internacionais",
+    "ingredients": [
+      "200g de macarrão para yakisoba",
+      "200g de frango em tiras",
+      "Cenoura",
+      "Brócolis",
+      "Molho shoyu",
+      "Óleo de gergelim"
+    ],
+    "instructions": [
+      "Cozinhe o macarrão.",
+      "Refogue o frango e os legumes.",
+      "Misture o macarrão, acrescente molho e óleo.",
+      "Cozinhe mais 5 minutos e sirva."
+    ],
+    "side-dishes": []
+  },
+  "panqueca-frutas": {
+    "name": "Panqueca com Frutas",
+    "description": "Panquecas fofinhas servidas com frutas frescas e mel.",
+    "category": "receitas-rapidas",
+    "ingredients": [
+      "1 xícara de farinha de trigo",
+      "1 ovo",
+      "1 xícara de leite",
+      "Frutas variadas",
+      "Mel"
+    ],
+    "instructions": [
+      "Misture farinha, ovo e leite para a massa.",
+      "Cozinhe as panquecas.",
+      "Sirva com frutas frescas e mel por cima."
+    ],
+    "side-dishes": []
+  },
+  "mousse-maracuja": {
+    "name": "Mousse de Maracujá Light",
+    "description": "Mousse leve e refrescante de maracujá para sobremesa.",
+    "category": "sobremesas",
+    "ingredients": [
+      "1 lata de leite condensado light",
+      "1 lata de creme de leite light",
+      "Polpa de maracujá",
+      "Gelatina incolor"
+    ],
+    "instructions": [
+      "Hidrate a gelatina conforme instruções.",
+      "Bata todos os ingredientes no liquidificador.",
+      "Leve à geladeira até firmar.",
+      "Sirva gelado."
+    ],
+    "side-dishes": []
+  },
+  "escondidinho-carne-seca": {
+    "name": "Escondidinho de Carne Seca",
+    "description": "Prato típico brasileiro com purê de mandioca e carne seca desfiada.",
+    "category": "pratos-principais",
+    "ingredients": [
+      "500g de carne seca dessalgada e desfiada",
+      "1 kg de mandioca cozida",
+      "1 cebola picada",
+      "Queijo coalho ralado",
+      "Manteiga",
+      "Sal e pimenta"
+    ],
+    "instructions": [
+      "Refogue a cebola e a carne seca.",
+      "Faça um purê com a mandioca e manteiga.",
+      "Em um refratário, coloque purê, carne seca e queijo.",
+      "Leve ao forno para gratinar.",
+      "Sirva quente."
+    ],
+    "side-dishes": [
+      "Salada verde"
+    ]
+  },
+  "crepioca-salgada": {
+    "name": "Crepioca Salgada",
+    "description": "Versão salgada da crepioca, prática para refeições rápidas.",
+    "category": "receitas-rapidas",
+    "ingredients": [
+      "2 colheres de tapioca",
+      "1 ovo",
+      "Queijo ralado",
+      "Tomate picado",
+      "Orégano"
+    ],
+    "instructions": [
+      "Misture ovo e tapioca até homogeneizar.",
+      "Adicione queijo e tomate.",
+      "Cozinhe em frigideira antiaderente.",
+      "Polvilhe orégano e sirva."
+    ],
+    "side-dishes": []
+  },
+  "pudim-coco": {
+    "name": "Pudim de Coco",
+    "description": "Pudim cremoso com sabor tropical de coco.",
+    "category": "sobremesas",
+    "ingredients": [
+      "1 lata de leite condensado",
+      "1 lata de leite",
+      "3 ovos",
+      "100ml de leite de coco",
+      "Coco ralado para decorar"
+    ],
+    "instructions": [
+      "Bata no liquidificador leite condensado, leite, ovos e leite de coco.",
+      "Despeje na forma caramelizada.",
+      "Asse em banho-maria por 1 hora.",
+      "Deixe esfriar, desenforme e decore com coco ralado."
+    ],
+    "side-dishes": []
+  },
+  "sopa-abobora-laranja": {
+    "name": "Sopa de Abóbora com Laranja",
+    "description": "Sopa doce e cítrica que combina abóbora com suco de laranja.",
+    "category": "sopas-caldos",
+    "ingredients": [
+      "500g de abóbora picada",
+      "1 cebola",
+      "Suco de 1 laranja",
+      "Caldo de legumes",
+      "Sal e pimenta"
+    ],
+    "instructions": [
+      "Refogue cebola e abóbora.",
+      "Acrescente caldo e cozinhe até amaciar.",
+      "Bata tudo no liquidificador.",
+      "Adicione suco de laranja e tempere.",
+      "Sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "salada-cebola-caramelizada": {
+    "name": "Salada com Cebola Caramelizada",
+    "description": "Salada fresca com toque adocicado da cebola caramelizada.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "Alface",
+      "Rúcula",
+      "Cebola fatiada",
+      "Açúcar",
+      "Azeite",
+      "Vinagre balsâmico"
+    ],
+    "instructions": [
+      "Caramelize a cebola com açúcar em frigideira.",
+      "Misture folhas verdes.",
+      "Adicione a cebola caramelizada.",
+      "Tempere com azeite e vinagre.",
+      "Sirva fresca."
+    ],
+    "side-dishes": []
+  },
+  "omelete-ervas-finase-queijo": {
+    "name": "Omelete de Ervas Finas e Queijo",
+    "description": "Omelete leve com mix de ervas frescas e queijo cremoso.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "3 ovos",
+      "Ervas finas picadas",
+      "Queijo cremoso",
+      "Sal e pimenta"
+    ],
+    "instructions": [
+      "Bata os ovos com sal e pimenta.",
+      "Adicione ervas e queijo.",
+      "Cozinhe até firmar.",
+      "Sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "sanduiche-natural-frango": {
+    "name": "Sanduíche Natural de Frango",
+    "description": "Sanduíche leve com frango, alface e maionese caseira.",
+    "category": "lanches-paes",
+    "ingredients": [
+      "Pão integral",
+      "Peito de frango cozido e desfiado",
+      "Alface",
+      "Maionese",
+      "Tomate"
+    ],
+    "instructions": [
+      "Passe maionese no pão.",
+      "Adicione frango, alface e tomate.",
+      "Monte o sanduíche e sirva."
+    ],
+    "side-dishes": []
+  },
+  "panqueca-banana": {
+    "name": "Panqueca de Banana",
+    "description": "Panquecas doces com pedaços de banana, ótimas para o café da manhã.",
+    "category": "receitas-rapidas",
+    "ingredients": [
+      "1 xícara de farinha",
+      "1 ovo",
+      "1 xícara de leite",
+      "2 bananas maduras amassadas",
+      "Canela"
+    ],
+    "instructions": [
+      "Misture farinha, ovo, leite e bananas.",
+      "Cozinhe em frigideira quente.",
+      "Polvilhe canela e sirva."
+    ],
+    "side-dishes": []
+  },
+  "brigadeiro-fitness": {
+    "name": "Brigadeiro Fitness",
+    "description": "Versão mais saudável do tradicional brigadeiro, feito com cacau e adoçante natural.",
+    "category": "sobremesas",
+    "ingredients": [
+      "Leite condensado light",
+      "Cacau em pó",
+      "Adoçante natural",
+      "Granulado de cacau"
+    ],
+    "instructions": [
+      "Misture leite condensado, cacau e adoçante.",
+      "Cozinhe até desgrudar da panela.",
+      "Enrole em bolinhas e passe no granulado.",
+      "Sirva gelado."
+    ],
+    "side-dishes": []
+  },
+  "frango-xadrez": {
+    "name": "Frango Xadrez",
+    "description": "Prato típico da culinária chinesa com frango, legumes e molho oriental.",
+    "category": "pratos-internacionais",
+    "ingredients": [
+      "500g de peito de frango em cubos",
+      "1 pimentão vermelho",
+      "1 pimentão verde",
+      "1 cebola",
+      "Molho shoyu",
+      "Amido de milho",
+      "Óleo de gergelim"
+    ],
+    "instructions": [
+      "Refogue o frango e reserve.",
+      "Na mesma panela, refogue os legumes.",
+      "Volte o frango e adicione molho com amido.",
+      "Cozinhe até engrossar e sirva."
+    ],
+    "side-dishes": [
+      "Arroz branco"
+    ]
+  },
+  "banana-assada-canela": {
+    "name": "Banana Assada com Canela",
+    "description": "Sobremesa simples e reconfortante, feita no forno com açúcar e canela.",
+    "category": "sobremesas",
+    "ingredients": [
+      "Bananas maduras",
+      "Açúcar mascavo",
+      "Canela em pó",
+      "Manteiga"
+    ],
+    "instructions": [
+      "Corte as bananas ao meio e disponha em assadeira.",
+      "Polvilhe açúcar, canela e adicione pedacinhos de manteiga.",
+      "Asse por 15 minutos a 180°C.",
+      "Sirva quente ou fria."
+    ],
+    "side-dishes": []
+  },
+  "salada-manga": {
+    "name": "Salada de Manga",
+    "description": "Salada refrescante e agridoce com manga e folhas verdes.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "Folhas verdes",
+      "Manga madura em cubos",
+      "Cebola roxa fatiada",
+      "Azeite",
+      "Vinagre balsâmico"
+    ],
+    "instructions": [
+      "Misture todos os ingredientes.",
+      "Tempere com azeite e vinagre.",
+      "Sirva fresca."
+    ],
+    "side-dishes": []
+  },
+  "mingau-aveia": {
+    "name": "Mingau de Aveia",
+    "description": "Café da manhã nutritivo e reconfortante feito com leite e aveia.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "1 xícara de leite",
+      "3 colheres de aveia em flocos",
+      "1 colher de mel",
+      "Canela a gosto"
+    ],
+    "instructions": [
+      "Aqueça o leite com a aveia mexendo sempre.",
+      "Cozinhe até engrossar.",
+      "Adicione mel e canela.",
+      "Sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "batata-recheada": {
+    "name": "Batata Recheada",
+    "description": "Acompanhamento delicioso com batatas assadas e recheadas com queijo e bacon.",
+    "category": "saladas-acompanhamentos",
+    "ingredients": [
+      "Batatas grandes",
+      "Queijo mussarela",
+      "Bacon frito em pedaços",
+      "Requeijão",
+      "Cheiro-verde"
+    ],
+    "instructions": [
+      "Asse as batatas até ficarem macias.",
+      "Corte ao meio e retire um pouco da polpa.",
+      "Misture com queijo, bacon e requeijão.",
+      "Recheie e volte ao forno para gratinar.",
+      "Sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "bolo-milho": {
+    "name": "Bolo de Milho",
+    "description": "Bolo macio e úmido feito com milho, típico das festas juninas.",
+    "category": "sobremesas",
+    "ingredients": [
+      "1 lata de milho",
+      "1 lata de leite condensado",
+      "1 lata de leite",
+      "3 ovos",
+      "1 colher de sopa de fermento",
+      "1/2 xícara de fubá"
+    ],
+    "instructions": [
+      "Bata tudo no liquidificador.",
+      "Despeje em forma untada.",
+      "Asse por 40 minutos a 180°C.",
+      "Espere esfriar e desenforme."
+    ],
+    "side-dishes": []
+  },
+  "wrap-frango": {
+    "name": "Wrap de Frango",
+    "description": "Lanche leve e prático com tortilha, frango e vegetais.",
+    "category": "lanches-paes",
+    "ingredients": [
+      "Tortilhas",
+      "Frango grelhado em tiras",
+      "Alface",
+      "Tomate",
+      "Molho de iogurte"
+    ],
+    "instructions": [
+      "Aqueça a tortilha.",
+      "Recheie com frango, vegetais e molho.",
+      "Enrole e sirva."
+    ],
+    "side-dishes": []
+  },
+  "sopa-lentilha": {
+    "name": "Sopa de Lentilha",
+    "description": "Sopa nutritiva ideal para dias frios, feita com lentilhas e legumes.",
+    "category": "sopas-caldos",
+    "ingredients": [
+      "1 xícara de lentilhas",
+      "1 cenoura picada",
+      "1 batata picada",
+      "1 cebola",
+      "Alho",
+      "Caldo de legumes"
+    ],
+    "instructions": [
+      "Refogue a cebola e o alho.",
+      "Adicione os legumes e a lentilha.",
+      "Cubra com caldo e cozinhe até amaciar.",
+      "Sirva quente."
+    ],
+    "side-dishes": []
+  },
+  "crepioca-banana": {
+    "name": "Crepioca de Banana",
+    "description": "Crepioca doce com banana, ideal para o café da manhã.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "1 ovo",
+      "2 colheres de tapioca",
+      "1 banana amassada",
+      "Canela"
+    ],
+    "instructions": [
+      "Misture tudo em uma tigela.",
+      "Cozinhe em frigideira até dourar.",
+      "Sirva com canela por cima."
+    ],
+    "side-dishes": []
+  },
+  "cuscuz-nordestino": {
+    "name": "Cuscuz Nordestino",
+    "description": "Prato típico do nordeste brasileiro feito com flocos de milho e ideal para o café da manhã.",
+    "category": "cafe-da-manha-brunch",
+    "ingredients": [
+      "1 xícara de flocão de milho",
+      "1/2 xícara de água",
+      "Sal a gosto",
+      "Manteiga para servir"
+    ],
+    "instructions": [
+      "Hidrate o flocão com água e sal.",
+      "Deixe descansar 10 minutos.",
+      "Cozinhe em cuscuzeira por 15 minutos.",
+      "Sirva com manteiga derretida."
+    ],
+    "side-dishes": []
   }
-  
+}
