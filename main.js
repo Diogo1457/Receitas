@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentCategory = getCurrentCategory();
 
   // Carrega receitas JSON uma vez
-  fetch('/recipes.json')
+  fetch('/Receitas/recipes.json')
     .then(res => res.json())
     .then(data => { recipes = data; })
     .catch(() => { recipes = {}; });
@@ -86,12 +86,12 @@ document.addEventListener("DOMContentLoaded", function () {
       li.tabIndex = 0;
 
       li.innerHTML = `
-        <img src="/images/${id}.png" alt="${recipe.name}" class="result-img" />
+        <img src="/Receitas/images/${id}.png" alt="${recipe.name}" class="result-img" />
         <span class="result-text">${recipe.name}</span>
       `;
 
       li.addEventListener('click', () => {
-        window.location.href = `/${recipe.category}/${id}/index.html`;
+        window.location.href = `/Receitas/${recipe.category}/${id}/index.html`;
       });
 
       resultsList.appendChild(li);

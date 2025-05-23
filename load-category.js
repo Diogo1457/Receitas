@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const categoryId = pathSegments[pathSegments.length - 2];
 
     // Busca categories.json para validar e pegar nome/descrição da categoria
-    fetch("/categories.json")
+    fetch("/Receitas/categories.json")
       .then(response => {
         if (!response.ok) throw new Error("Falha ao carregar categorias");
         return response.json();
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const category = categories[categoryId];
         if (!category) {
           // Categoria não encontrada - redireciona para 404
-          window.location.href = "/404-category.html";
+          window.location.href = "/Receitas/404-category.html";
           throw new Error("Categoria não encontrada");
         }
 
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("category-title").textContent = `${category.name}`;
 
         // Agora busca recipes.json e renderiza só as receitas dessa categoria
-        return fetch("/recipes.json");
+        return fetch("/Receitas/recipes.json");
       })
       .then(response => {
         if (!response.ok) throw new Error("Falha ao carregar receitas");
@@ -54,10 +54,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // Renderiza cards das receitas filtradas
         filteredRecipes.forEach(([id, recipe]) => {
           const card = document.createElement("a");
-          card.href = `/${categoryId}/${id}/index.html`;
+          card.href = `/Receitas/${categoryId}/${id}/index.html`;
           card.className = "card";
           card.innerHTML = `
-            <img src="/images/${id}.png" alt="${recipe.name}" class="card-img" />
+            <img src="/Receitas/images/${id}.png" alt="${recipe.name}" class="card-img" />
             <div class="card-content">
               <h4 class="card-title">${recipe.name}</h4>
               <p class="card-description">${recipe.description}</p>

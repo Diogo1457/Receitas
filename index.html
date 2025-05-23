@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Descubra centenas de receitas deliciosas e fáceis de preparar com nosso site moderno e otimizado para SEO.">
   <title>Receitas Deliciosas</title>
-  <link href="style.css" rel="stylesheet">
+  <link href="/Receitas/style.css" rel="stylesheet">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185" crossorigin="anonymous"></script>
-  <script src="main.js" defer></script>
+  <script src="/Receitas/main.js" defer></script>
   <script>
   document.addEventListener("DOMContentLoaded", () => {
-    fetch('recipes.json')
+    fetch('/Receitas/recipes.json')
       .then(response => {
         if (!response.ok) throw new Error('Falha ao carregar Receitas');
         return response.json();
@@ -22,10 +22,10 @@
 
           if (section) {
             const card = document.createElement("a");
-            card.href = `/${recipe.category}/${id}/index.html`;
+            card.href = `/Receitas/${recipe.category}/${id}/index.html`;
             card.className = "card";
             card.innerHTML = `
-              <img src="/images/${id}.png" alt="${recipe.name}" class="card-img">
+              <img src="/Receitas/images/${id}.png" alt="${recipe.name}" class="card-img">
               <div class="card-content">
                 <h4 class="card-title">${recipe.name}</h4>
                 <p class="card-description">${recipe.description}</p>
@@ -44,17 +44,17 @@
 <body class="bg-light text-dark font-body">
   <header class="header">
     <div class="container header-container">
-      <h1 class="logo"><a href="index.html">🍲 Receitas Deliciosas</a></h1>
+      <h1 class="logo"><a href="/Receitas/index.html">🍲 Receitas Deliciosas</a></h1>
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
       <nav class="nav">
-        <a href="#pratos-principais" class="nav-link">Pratos Principais</a>
-        <a href="#receitas-rapidas" class="nav-link">Preparação Rápida</a>
-        <a href="#sobremesas" class="nav-link">Sobremesas</a>
-        <a href="#sopas-caldos" class="nav-link">Sopas</a>
-        <a href="#saladas-acompanhamentos" class="nav-link">Acompanhamentos</a>
-        <a href="#cafe-da-manha-brunch" class="nav-link">Café da Manhã</a>
-        <a href="#lanches-paes" class="nav-link">Lanches</a>
-        <a href="#pratos-internacionais" class="nav-link">Internacionais</a>
+        <a href="/Receitas/index.html#pratos-principais" class="nav-link">Pratos Principais</a>
+        <a href="/Receitas/index.html#receitas-rapidas" class="nav-link">Preparação Rápida</a>
+        <a href="/Receitas/index.html#sobremesas" class="nav-link">Sobremesas</a>
+        <a href="/Receitas/index.html#sopas-caldos" class="nav-link">Sopas</a>
+        <a href="/Receitas/index.html#saladas-acompanhamentos" class="nav-link">Acompanhamentos</a>
+        <a href="/Receitas/index.html#cafe-da-manha-brunch" class="nav-link">Café da Manhã</a>
+        <a href="/Receitas/index.html#lanches-paes" class="nav-link">Lanches</a>
+        <a href="/Receitas/index.html#pratos-internacionais" class="nav-link">Internacionais</a>
       </nav>
       <div class="search-container">
         <input
@@ -81,49 +81,49 @@
 
     <section id="pratos-principais" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/pratos-principais/index.html">🍝 Massas e Pratos Principais</a>
+        <a href="/Receitas/pratos-principais/index.html">🍝 Massas e Pratos Principais</a>
       </h3>
     </section>
     
     <section id="receitas-rapidas" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/receitas-rapidas/index.html">⏱️ Preparação Rápida</a>
+        <a href="/Receitas/receitas-rapidas/index.html">⏱️ Preparação Rápida</a>
       </h3>
     </section>
     
     <section id="sobremesas" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/sobremesas/index.html">🍰 Sobremesas</a>
+        <a href="/Receitas/sobremesas/index.html">🍰 Sobremesas</a>
       </h3>
     </section>
     
     <section id="sopas-caldos" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/sopas-caldos/index.html">🍲 Sopas</a>
+        <a href="/Receitas/sopas-caldos/index.html">🍲 Sopas</a>
       </h3>
     </section>
     
     <section id="saladas-acompanhamentos" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/saladas-acompanhamentos/index.html">🥗 Acompanhamentos</a>
+        <a href="/Receitas/saladas-acompanhamentos/index.html">🥗 Acompanhamentos</a>
       </h3>
     </section>
 
     <section id="cafe-da-manha-brunch" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/cafe-da-manha-brunch/index.html">🥘 Café da Manhã e Brunch</a>
+        <a href="/Receitas/cafe-da-manha-brunch/index.html">🥘 Café da Manhã e Brunch</a>
       </h3>
     </section>
     
     <section id="lanches-paes" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/lanches-paes/index.html">🍿 Lanches</a>
+        <a href="/Receitas/lanches-paes/index.html">🍿 Lanches</a>
       </h3>
     </section>
     
     <section id="pratos-internacionais" class="grid-recipes">
       <h3 class="category-title">
-        <a href="/pratos-internacionais/index.html">🥘 Receitas Internacionais</a>
+        <a href="/Receitas/pratos-internacionais/index.html">🥘 Receitas Internacionais</a>
       </h3>
     </section>
 

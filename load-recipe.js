@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const recipeId = pathSegments[pathSegments.length - 2];
   
 	// 1. Verifica se categoria existe
-	fetch("/categories.json")
+	fetch("/Receitas/categories.json")
 	  .then(response => {
 		if (!response.ok) throw new Error("Falha ao carregar categorias");
 		return response.json();
@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	  .then(categories => {
 		if (!categories[categoryId]) {
 		  // Categoria não existe - redireciona para 404 categoria
-		  window.location.href = "/404-category.html";
+		  window.location.href = "/Receitas/404-category.html";
 		  throw new Error("Categoria não encontrada");
 		}
   
 		// 2. Categoria existe, verifica receita
-		return fetch("/recipes.json");
+		return fetch("/Receitas/recipes.json");
 	  })
 	  .then(response => {
 		if (!response.ok) throw new Error("Falha ao carregar receitas");
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 		if (!recipe) {
 		  // Receita não encontrada
-		  window.location.href = "/404-receita.html";
+		  window.location.href = "/Receitas/404-receita.html";
 		  throw new Error("Receita não encontrada");
 		}
   
@@ -37,11 +37,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Se quiser garantir que receita pertence a categoria da URL:
 		if (Array.isArray(recipe.category)) {
 		  if (!recipe.category.includes(categoryId)) {
-			window.location.href = "/404-category.html";
+			window.location.href = "/Receitas/404-category.html";
 			throw new Error("Receita não pertence a categoria informada");
 		  }
 		} else if (recipe.category !== categoryId) {
-		  window.location.href = "/404-category.html";
+		  window.location.href = "/Receitas/404-category.html";
 		  throw new Error("Receita não pertence a categoria informada");
 		}
   
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		const content = `
 		  <h2 class="hero-title mb-2">${recipe.name}</h2>
 		  <p class="card-description mb-4">${recipe.description}</p>
-		  <img src="/images/${recipeId}.png" alt="${recipe.name}" class="recipe-img">
+		  <img src="/Receitas/images/${recipeId}.png" alt="${recipe.name}" class="recipe-img">
   
 		  <section class="recipe-section">
 			<h3 class="section-title">Ingredientes</h3>
