@@ -1,0 +1,34 @@
+{
+	"pratos-principais": {
+		"name": "Pratos Principais",
+		"recipes": ["feijoada", "lasanha"]
+	},
+	"receitas-rapidas": {
+		"name": "Preparação Rápida",
+		"recipes": []
+	},
+	"sobremesas": {
+		"name": "Sobremesas",
+		"recipes": ["bolo-cenoura", "arroz-doce"]
+	},
+	"sopas-caldos": {
+		"name": "Sopas",
+		"recipes": []
+	},
+	"saladas-acompanhamentos": {
+		"name": "Acompanhamentos",
+		"recipes": ["salada-maionese"]
+	},
+	"cafe-da-manha-brunch": {
+		"name": "Café da Manhã e Brunch",
+		"recipes": []
+	},
+	"lanches-paes": {
+		"name": "Lanches",
+		"recipes": []
+	},
+	"pratos-internacionais": {
+		"name": "Receitas Internacionais",
+		"recipes": ["paella"]
+	}
+}

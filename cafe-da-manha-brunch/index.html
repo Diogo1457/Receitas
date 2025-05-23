@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" id="meta-description">
-  <title id="page-title">Carregando Receita...</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185" crossorigin="anonymous"></script>
+  <title>Categoria - Receitas Deliciosas</title>
   <link href="/style.css" rel="stylesheet" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185" crossorigin="anonymous"></script>
   <script src="/main.js" defer></script>
-  <script src="/load-recipe.js" defer></script>
+  <script src="/load-category.js"></script>
 </head>
 <body class="bg-light text-dark font-body">
   <header class="header">
@@ -25,7 +24,16 @@
         <a href="/lanches-paes/index.html" class="nav-link">Lanches</a>
         <a href="/pratos-internacionais/index.html" class="nav-link">Internacionais</a>
       </nav>
-
+      <div class="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Pesquisar receitas..."
+          aria-label="Pesquisar receitas"
+          autocomplete="off"
+        />
+        <ul id="search-results" class="search-results"></ul>
+      </div>
       <button class="dark-mode-toggle" aria-label="Alternar modo escuro" title="Alternar modo escuro">
         <span class="toggle-icon">🌙</span>
         <span class="toggle-switch"></span>
@@ -34,9 +42,14 @@
   </header>
 
   <main class="container">
-    <article class="recipe-article" id="recipe-content">
-      <h2 class="hero-title mb-2">Carregando...</h2>
-    </article>
+    <section class="hero">
+      <h2 id="category-title" class="hero-title">Categoria</h2>
+      <p class="hero-subtitle">Confira as receitas desta categoria.</p>
+    </section>
+
+    <section id="recipes-container" class="grid-recipes">
+      <!-- receitas da categoria aqui serão inseridas pelo JS -->
+    </section>
   </main>
 
   <footer class="footer">

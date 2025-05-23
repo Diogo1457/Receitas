@@ -6,10 +6,40 @@
   <meta name="description" content="Descubra centenas de receitas deliciosas e fáceis de preparar com nosso site moderno e otimizado para SEO.">
   <title>Receitas Deliciosas</title>
   <link href="style.css" rel="stylesheet">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185"
-    crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185" crossorigin="anonymous"></script>
   <script src="main.js" defer></script>
-  
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    fetch('recipes.json')
+      .then(response => {
+        if (!response.ok) throw new Error('Falha ao carregar Receitas');
+        return response.json();
+      })
+      .then(recipes => {
+        Object.entries(recipes).forEach(([id, recipe]) => {
+          const sectionId = recipe.category;
+          const section = document.querySelector(`#${sectionId}`);
+
+          if (section) {
+            const card = document.createElement("a");
+            card.href = `/${recipe.category}/${id}/index.html`;
+            card.className = "card";
+            card.innerHTML = `
+              <img src="/images/${id}.png" alt="${recipe.name}" class="card-img">
+              <div class="card-content">
+                <h4 class="card-title">${recipe.name}</h4>
+                <p class="card-description">${recipe.description}</p>
+              </div>
+            `;
+            section.appendChild(card);
+          } else {
+            console.warn(`Seção não encontrada para a receita '${id}' com categoria '${recipe.category}'`);
+          }
+        });
+      })
+      .catch(error => console.error('Erro ao carregar receitas:', error));
+  });
+  </script>
 </head>
 <body class="bg-light text-dark font-body">
   <header class="header">
@@ -20,89 +50,83 @@
         <a href="#pratos-principais" class="nav-link">Pratos Principais</a>
         <a href="#receitas-rapidas" class="nav-link">Preparação Rápida</a>
         <a href="#sobremesas" class="nav-link">Sobremesas</a>
-        <a href="#sopas" class="nav-link">Sopas</a>
-        <a href="#acompanhamentos" class="nav-link">Acompanhamentos</a>
-        <a href="#lanches" class="nav-link">Lanches</a>
-        <a href="#internacionais" class="nav-link">Internacionais</a>
+        <a href="#sopas-caldos" class="nav-link">Sopas</a>
+        <a href="#saladas-acompanhamentos" class="nav-link">Acompanhamentos</a>
+        <a href="#cafe-da-manha-brunch" class="nav-link">Café da Manhã</a>
+        <a href="#lanches-paes" class="nav-link">Lanches</a>
+        <a href="#pratos-internacionais" class="nav-link">Internacionais</a>
       </nav>
-  
-      <!-- DARK MODE TOGGLE BUTTON -->
+      <div class="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Pesquisar receitas..."
+          aria-label="Pesquisar receitas"
+          autocomplete="off"
+        />
+        <ul id="search-results" class="search-results"></ul>
+      </div>
       <button class="dark-mode-toggle" aria-label="Alternar modo escuro" title="Alternar modo escuro">
         <span class="toggle-icon">🌙</span>
         <span class="toggle-switch"></span>
       </button>
     </div>
   </header>
-  
+
   <main class="container">
     <section class="hero">
       <h2 class="hero-title">Cozinhe com amor ❤️</h2>
       <p class="hero-subtitle">As melhores receitas da internet, agora na sua mesa.</p>
     </section>
 
-    <!-- 🍝 Pratos Principais -->
     <section id="pratos-principais" class="grid-recipes">
-      <h3 class="category-title">🍝 Massas e Pratos Principais</h3>
-      <a href="pratos-principais/feijoada/index.html" class="card">
-        <img src="images/feijoada.webp" alt="Feijoada" class="card-img">
-        <div class="card-content">
-          <h4 class="card-title">Feijoada</h4>
-          <p class="card-description">Tradição brasileira para o fim de semana.</p>
-        </div>
-      </a>
-      <a href="pratos-principais/lasanha/index.html" class="card">
-        <img src="images/lasanha.jpg" alt="Lasanha à Bolonhesa" class="card-img">
-        <div class="card-content">
-          <h4 class="card-title">Lasanha à Bolonhesa</h4>
-          <p class="card-description">Camadas de massa, molho de carne e queijo gratinado.</p>
-        </div>
-      </a>
+      <h3 class="category-title">
+        <a href="/pratos-principais/index.html">🍝 Massas e Pratos Principais</a>
+      </h3>
     </section>
-
-    <!-- 🍰 Sobremesas -->
+    
+    <section id="receitas-rapidas" class="grid-recipes">
+      <h3 class="category-title">
+        <a href="/receitas-rapidas/index.html">⏱️ Preparação Rápida</a>
+      </h3>
+    </section>
+    
     <section id="sobremesas" class="grid-recipes">
-      <h3 class="category-title">🍰 Sobremesas</h3>
-      <a href="sobremesas/bolo-de-cenoura/index.html" class="card">
-        <img src="images/bolo-de-cenoura.jpg" alt="Bolo de Cenoura" class="card-img">
-        <div class="card-content">
-          <h4 class="card-title">Bolo de Cenoura</h4>
-          <p class="card-description">Receita clássica com cobertura de chocolate.</p>
-        </div>
-      </a>
-      <a href="sobremesas/arroz-doce/index.html" class="card">
-        <img src="images/arroz-doce.jpg" alt="Arroz Doce" class="card-img">
-        <div class="card-content">
-          <h4 class="card-title">Arroz Doce</h4>
-          <p class="card-description">Cremosa e tradicional com canela e leite condensado.</p>
-        </div>
-      </a>
+      <h3 class="category-title">
+        <a href="/sobremesas/index.html">🍰 Sobremesas</a>
+      </h3>
+    </section>
+    
+    <section id="sopas-caldos" class="grid-recipes">
+      <h3 class="category-title">
+        <a href="/sopas-caldos/index.html">🍲 Sopas</a>
+      </h3>
+    </section>
+    
+    <section id="saladas-acompanhamentos" class="grid-recipes">
+      <h3 class="category-title">
+        <a href="/saladas-acompanhamentos/index.html">🥗 Acompanhamentos</a>
+      </h3>
     </section>
 
-    <!-- 🥗 Acompanhamentos -->
-    <section id="acompanhamentos" class="grid-recipes">
-      <h3 class="category-title">🥗 Acompanhamentos</h3>
-      <a href="saladas-acompanhamentos/salada-de-maionese/index.html" class="card">
-        <img src="images/salada-maionese.jpg" alt="Salada de Maionese" class="card-img">
-        <div class="card-content">
-          <h4 class="card-title">Salada de Maionese</h4>
-          <p class="card-description">Acompanhamento clássico com batata, cenoura e maionese.</p>
-        </div>
-      </a>
+    <section id="cafe-da-manha-brunch" class="grid-recipes">
+      <h3 class="category-title">
+        <a href="/cafe-da-manha-brunch/index.html">🥘 Café da Manhã e Brunch</a>
+      </h3>
+    </section>
+    
+    <section id="lanches-paes" class="grid-recipes">
+      <h3 class="category-title">
+        <a href="/lanches-paes/index.html">🍿 Lanches</a>
+      </h3>
+    </section>
+    
+    <section id="pratos-internacionais" class="grid-recipes">
+      <h3 class="category-title">
+        <a href="/pratos-internacionais/index.html">🥘 Receitas Internacionais</a>
+      </h3>
     </section>
 
-    <!-- 🥘 Receitas Internacionais -->
-    <section id="internacionais" class="grid-recipes">
-      <h3 class="category-title">🥘 Receitas Internacionais</h3>
-      <a href="pratos-internacionais/paella/index.html" class="card">
-        <img src="images/paella.png" alt="Paella" class="card-img">
-        <div class="card-content">
-          <h4 class="card-title">Paella</h4>
-          <p class="card-description">Receita espanhola com frutos do mar e açafrão.</p>
-        </div>
-      </a>
-    </section>
-
-    <!-- Outras categorias vazias podem ser adicionadas conforme você for populando -->
   </main>
 
   <footer class="footer">

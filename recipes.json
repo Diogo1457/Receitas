@@ -1,0 +1,177 @@
+{
+	"arroz-doce": {
+		"name": "Arroz Doce",
+		"description": "Uma sobremesa tradicional portuguesa cremosa e deliciosa.",
+		"category": "sobremesas",
+		"ingredients": [
+		"1 litro de leite",
+		"200g de arroz carolino",
+		"200g de açúcar",
+		"Casca de limão",
+		"1 pau de canela"
+		],
+		"instructions": [
+		"Lave o arroz e escorra.",
+		"Ferva o leite com a casca de limão e o pau de canela.",
+		"Adicione o arroz e cozinhe em fogo brando mexendo até ficar cremoso.",
+		"Junte o açúcar, mexa mais 5 minutos e retire do fogo.",
+		"Deixe arrefecer e sirva polvilhado com canela."
+		],
+		"side-dishes": [
+		"Canela em pó para polvilhar",
+		"Fatias de limão"
+		]
+	},
+
+	"paella": {
+		"name": "Paella",
+		"description": "Receita tradicional espanhola rica em sabores do mar e especiarias.",
+		"category": "pratos-internacionais",
+		"ingredients": [
+		"2 xícaras de arroz tipo bomba ou arbório",
+		"500g de frutos do mar",
+		"1 peito de frango em cubos",
+		"100g de ervilhas",
+		"1 pimentão vermelho em tiras",
+		"1 cebola picada",
+		"2 dentes de alho picados",
+		"1 tomate sem pele picado",
+		"1 colher de chá de açafrão",
+		"Caldo de legumes (aproximadamente 4 xícaras)",
+		"Sal, azeite e pimenta a gosto",
+		"Limão para servir"
+		],
+		"instructions": [
+		"Aqueça azeite e refogue o frango até dourar. Reserve.",
+		"Refogue a cebola, alho e pimentão. Acrescente tomate e açafrão.",
+		"Adicione o arroz e misture bem por 2 minutos.",
+		"Despeje o caldo aos poucos, mexendo levemente.",
+		"Acrescente o frango, frutos do mar e ervilhas.",
+		"Cozinhe por 20 minutos até o arroz ficar macio.",
+		"Deixe descansar 5 minutos, decore com limão e sirva."
+		],
+		"side-dishes": []
+	},
+	"feijoada": {
+		"name": "Feijoada",
+		"description": "A tradicional feijoada brasileira, perfeita para reunir a família.",
+		"category": "pratos-principais",
+		"ingredients": [
+		"500g de feijão preto",
+		"200g de carne-seca dessalgada",
+		"200g de costelinha de porco",
+		"150g de linguiça calabresa",
+		"150g de paio",
+		"1 folha de louro",
+		"1 cebola picada",
+		"2 dentes de alho picados",
+		"Sal e pimenta a gosto",
+		"Água suficiente para o cozimento"
+		],
+		"instructions": [
+		"Deixe o feijão de molho por pelo menos 8 horas.",
+		"Cozinhe as carnes salgadas previamente dessalgadas em água por 20 minutos.",
+		"Escorra e reserve.",
+		"Refogue a cebola e o alho em uma panela grande.",
+		"Adicione o feijão, as carnes e a folha de louro.",
+		"Cubra com água e cozinhe por aproximadamente 1 hora ou até que tudo esteja macio.",
+		"Ajuste o sal e finalize com pimenta a gosto."
+		],
+		"side-dishes": [
+		"Arroz branco",
+		"Farofa",
+		"Couve refogada",
+		"Laranja fatiada"
+		]
+	},
+	"lasanha": {
+		"name": "Lasanha à Bolonhesa",
+		"description": "Uma receita clássica italiana com camadas de massa, molho de carne e queijo gratinado.",
+		"category": "pratos-principais",
+		"ingredients": [
+			"500g de massa para lasanha",
+			"500g de carne moída",
+			"1 cebola picada",
+			"2 dentes de alho picados",
+			"2 latas de molho de tomate",
+			"2 colheres de sopa de óleo",
+			"Sal e pimenta a gosto",
+			"500g de queijo mussarela fatiado",
+			"200g de presunto fatiado",
+			"Queijo parmesão ralado a gosto"
+		],
+		"instructions": [
+			"Em uma panela, aqueça o óleo e refogue a cebola e o alho até dourarem.",
+			"Adicione a carne moída e cozinhe até que esteja bem dourada.",
+			"Acrescente o molho de tomate, tempere com sal e pimenta, e cozinhe por cerca de 10 minutos. Reserve.",
+			"Cozinhe a massa da lasanha conforme as instruções da embalagem. Reserve.",
+			"Em um refratário, monte a lasanha alternando camadas de molho, massa, presunto, mussarela e molho novamente.",
+			"Repita as camadas até acabarem os ingredientes, finalizando com queijo mussarela e parmesão ralado por cima.",
+			"Leve ao forno pré-aquecido a 180°C por cerca de 30 minutos ou até gratinar.",
+			"Retire do forno e deixe descansar por 10 minutos antes de servir."
+		],
+		"side-dishes": []
+	},
+	"bolo-de-cenoura": {
+		"name": "Bolo de Cenoura",
+		"description": "Clássico da culinária portuguesa com cobertura de chocolate cremosa.",
+		"category": "sobremesas",
+		"ingredients": [
+			"3 cenouras médias picadas",
+			"4 ovos",
+			"1 xícara de óleo",
+			"2 xícaras de açúcar",
+			"2 e 1/2 xícaras de farinha de trigo",
+			"1 colher de sopa de fermento em pó"
+		],
+		"instructions": [
+			"Bata no liquidificador a cenoura, os ovos e o óleo até obter uma mistura homogênea.",
+			"Adicione o açúcar e bata novamente.",
+			"Transfira a mistura para uma tigela e adicione a farinha aos poucos, mexendo bem.",
+			"Por último, acrescente o fermento e misture delicadamente.",
+			"Despeje a massa em uma forma untada e enfarinhada.",
+			"Leve ao forno preaquecido a 180°C por cerca de 40 minutos."
+		],
+		"side-dishes": [],
+		"topping": {
+			"name": "Cobertura de Chocolate",
+			"ingredients": [
+			"1 colher de sopa de manteiga",
+			"3 colheres de sopa de chocolate em pó",
+			"5 colheres de sopa de açúcar",
+			"2 colheres de sopa de leite"
+			],
+			"instructions": [
+			"Leve ao fogo médio: manteiga, chocolate em pó, açúcar e leite.",
+			"Misture bem até ferver e despeje sobre o bolo ainda quente."
+			]
+		}
+	},
+	"salada-maionese": {
+		"name": "Salada de Maionese",
+		"description": "Clássico acompanhamento brasileiro, refrescante e saboroso. Ideal para churrascos, almoços em família ou dias quentes.",
+		"category": "saladas-acompanhamentos",
+		"ingredients": [
+		  "4 batatas médias",
+		  "2 cenouras médias",
+		  "1 xícara de ervilhas (congeladas ou em conserva)",
+		  "1/2 xícara de milho (opcional)",
+		  "1 maçã pequena (opcional, cortada em cubinhos)",
+		  "1/2 xícara de maionese",
+		  "2 colheres de sopa de creme de leite (opcional)",
+		  "Sal e pimenta a gosto",
+		  "Salsinha picada para decorar"
+		],
+		"instructions": [
+		  "Descasque e corte as batatas e as cenouras em cubinhos.",
+		  "Cozinhe as batatas e cenouras em água com sal até ficarem macias, mas firmes. Escorra e deixe esfriar.",
+		  "Se usar ervilhas congeladas, cozinhe por 2 minutos em água quente e escorra. Se forem em conserva, apenas escorra.",
+		  "Em uma tigela grande, misture as batatas, cenouras, ervilhas e milho (se usar).",
+		  "Adicione a maçã picada, se desejar um toque adocicado.",
+		  "Incorpore a maionese (e o creme de leite, se usar), misturando bem até envolver todos os ingredientes.",
+		  "Ajuste o sal e a pimenta. Leve à geladeira por pelo menos 30 minutos antes de servir.",
+		  "Decore com salsinha picada e sirva gelada."
+		]
+	}
+  }
+  

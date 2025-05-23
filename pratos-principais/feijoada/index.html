@@ -3,29 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Aprenda a preparar uma feijoada brasileira tradicional, completa e deliciosa. Receita passo a passo.">
-  <title>Feijoada - Receita Deliciosa</title>
-  <link href="../../style.css" rel="stylesheet" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185"
-     crossorigin="anonymous"></script>
-  <script src="../../main.js" defer></script>
+  <meta name="description" content="" id="meta-description">
+  <title id="page-title">Carregando Receita...</title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185" crossorigin="anonymous"></script>
+  <link href="/style.css" rel="stylesheet" />
+  <script src="/main.js" defer></script>
+  <script src="/load-recipe.js" defer></script>
 </head>
 <body class="bg-light text-dark font-body">
   <header class="header">
     <div class="container header-container">
-      <h1 class="logo"><a href="../../index.html">🍲 Receitas Deliciosas</a></h1>
+      <h1 class="logo"><a href="/index.html">🍲 Receitas Deliciosas</a></h1>
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
       <nav class="nav">
-        <a href="../../index.html#pratos-principais" class="nav-link">Pratos Principais</a>
-        <a href="../../index.html#receitas-rapidas" class="nav-link">Preparação Rápida</a>
-        <a href="../../index.html#sobremesas" class="nav-link">Sobremesas</a>
-        <a href="../../index.html#sopas" class="nav-link">Sopas</a>
-        <a href="../../index.html#acompanhamentos" class="nav-link">Acompanhamentos</a>
-        <a href="../../index.html#lanches" class="nav-link">Lanches</a>
-        <a href="../../index.html#internacionais" class="nav-link">Internacionais</a>
+        <a href="/pratos-principais/index.html" class="nav-link">Pratos Principais</a>
+        <a href="/receitas-rapidas/index.html" class="nav-link">Preparação Rápida</a>
+        <a href="/sobremesas/index.html" class="nav-link">Sobremesas</a>
+        <a href="/sopas-caldos/index.html" class="nav-link">Sopas</a>
+        <a href="/saladas-acompanhamentos/index.html" class="nav-link">Acompanhamentos</a>
+        <a href="/lanches-paes/index.html" class="nav-link">Lanches</a>
+        <a href="/pratos-internacionais/index.html" class="nav-link">Internacionais</a>
+        <a href="/cafe-da-manha-brunch/index.html" class="nav-link">Café da Manhã</a>
       </nav>
-  
-      <!-- DARK MODE TOGGLE BUTTON -->
+      <div class="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Pesquisar receitas..."
+          aria-label="Pesquisar receitas"
+          autocomplete="off"
+        />
+        <ul id="search-results" class="search-results"></ul>
+      </div>
       <button class="dark-mode-toggle" aria-label="Alternar modo escuro" title="Alternar modo escuro">
         <span class="toggle-icon">🌙</span>
         <span class="toggle-switch"></span>
@@ -34,49 +43,8 @@
   </header>
 
   <main class="container">
-    <article class="recipe-article">
-      <h2 class="hero-title mb-2">Feijoada</h2>
-      <p class="card-description mb-4">A tradicional feijoada brasileira, perfeita para reunir a família.</p>
-      <img src="../../images/feijoada.webp" alt="Feijoada" class="recipe-img">
-
-      <section class="recipe-section">
-        <h3 class="section-title">Ingredientes</h3>
-        <ul class="recipe-list">
-          <li>500g de feijão preto</li>
-          <li>200g de carne-seca dessalgada</li>
-          <li>200g de costelinha de porco</li>
-          <li>150g de linguiça calabresa</li>
-          <li>150g de paio</li>
-          <li>1 folha de louro</li>
-          <li>1 cebola picada</li>
-          <li>2 dentes de alho picados</li>
-          <li>Sal e pimenta a gosto</li>
-          <li>Água suficiente para o cozimento</li>
-        </ul>
-      </section>
-
-      <section class="recipe-section">
-        <h3 class="section-title">Modo de Preparo</h3>
-        <ol class="recipe-list numbered">
-          <li>Deixe o feijão de molho por pelo menos 8 horas.</li>
-          <li>Cozinhe as carnes salgadas previamente dessalgadas em água por 20 minutos.</li>
-          <li>Escorra e reserve.</li>
-          <li>Refogue a cebola e o alho em uma panela grande.</li>
-          <li>Adicione o feijão, as carnes e a folha de louro.</li>
-          <li>Cubra com água e cozinhe por aproximadamente 1 hora ou até que tudo esteja macio.</li>
-          <li>Ajuste o sal e finalize com pimenta a gosto.</li>
-        </ol>
-      </section>
-
-      <section class="recipe-section">
-        <h3 class="section-title">Sugestão de Acompanhamentos</h3>
-        <ul class="recipe-list">
-          <li>Arroz branco</li>
-          <li>Farofa</li>
-          <li>Couve refogada</li>
-          <li>Laranja fatiada</li>
-        </ul>
-      </section>
+    <article class="recipe-article" id="recipe-content">
+      <h2 class="hero-title mb-2">Carregando...</h2>
     </article>
   </main>
 

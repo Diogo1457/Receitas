@@ -131,6 +131,19 @@ body {
   padding-left: 0.75rem;
 }
 
+.category-title a {
+  color: var(--green-dark);
+  text-decoration: none;
+  display: inline-block; /* para respeitar padding/margin */
+  transition: color 0.3s ease;
+}
+
+.category-title a:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+
 /* Recipe card */
 .card {
   background: white;
@@ -388,5 +401,172 @@ body.dark .recipe-article {
   body.dark .nav {
     background-color: #2c6b47; /* or use var(--green-dark) for consistency */
     border-radius: 8px;
+  }
+}
+
+/* Search bar container - full width */
+.search-container {
+  width: 80%;
+  max-width: 80%; /* full width */
+  position: relative;
+  margin-top: 0.75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Search input styling */
+#search-input {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-weight: 500;
+  background-color: #fafafa;
+  color: #222;
+  outline-offset: 2px;
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: none; /* no underline or weird shadows */
+}
+
+#search-input::placeholder {
+  color: #888;
+  font-weight: 400;
+}
+
+#search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  background-color: white;
+  outline-color: #007bff;
+}
+
+/* Dark mode search input */
+body.dark #search-input {
+  background-color: #1e1e1e; /* darker but no line */
+  border-color: #555;
+  color: #eee;
+  box-shadow: none;
+}
+
+body.dark #search-input::placeholder {
+  color: #aaa;
+}
+
+body.dark #search-input:focus {
+  border-color: #3399ff;
+  box-shadow: 0 0 8px rgba(51, 153, 255, 0.7);
+  background-color: #2a2a2a;
+  outline-color: #3399ff;
+}
+
+/* Responsive fix: for very small screens keep container max-width */
+@media (max-width: 400px) {
+  .search-container {
+    width: 95%;
+    max-width: 95%;
+  }
+}
+
+/* Search results dropdown */
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 0;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 1000;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.search-results.show {
+  max-height: 400px; /* enough for up to 10 results */
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+/* Dark mode dropdown */
+body.dark .search-results {
+  background: #222;
+  border-color: #555;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+}
+
+.search-results li {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0;
+  transition: background-color 0.2s ease;
+  color: #222;
+}
+
+body.dark .search-results li {
+  color: #eee;
+}
+
+.search-results li.selected,
+.search-results li.result-item:hover,
+.search-results li.result-item:focus {
+  background-color: #007bff;
+  color: white;
+  outline: none;
+}
+
+.search-results li.no-results {
+  cursor: default;
+  color: #888;
+  justify-content: center;
+}
+
+body.dark .search-results li.no-results {
+  color: #bbb;
+}
+
+.result-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.result-text {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #search-input {
+    font-size: 1rem;
+    padding: 12px 16px;
+  }
+
+  .result-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+
+  .search-results li {
+    font-size: 0.9rem;
+    padding: 6px 12px;
   }
 }

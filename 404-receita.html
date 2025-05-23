@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" id="meta-description">
-  <title id="page-title">Carregando Receita...</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185" crossorigin="anonymous"></script>
+  <title>Receita Não Encontrada - Receitas Deliciosas</title>
   <link href="/style.css" rel="stylesheet" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7154061268967185" crossorigin="anonymous"></script>
   <script src="/main.js" defer></script>
-  <script src="/load-recipe.js" defer></script>
 </head>
 <body class="bg-light text-dark font-body">
   <header class="header">
@@ -25,7 +23,16 @@
         <a href="/lanches-paes/index.html" class="nav-link">Lanches</a>
         <a href="/pratos-internacionais/index.html" class="nav-link">Internacionais</a>
       </nav>
-
+      <div class="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Pesquisar receitas..."
+          aria-label="Pesquisar receitas"
+          autocomplete="off"
+        />
+        <ul id="search-results" class="search-results"></ul>
+      </div>
       <button class="dark-mode-toggle" aria-label="Alternar modo escuro" title="Alternar modo escuro">
         <span class="toggle-icon">🌙</span>
         <span class="toggle-switch"></span>
@@ -33,10 +40,11 @@
     </div>
   </header>
 
-  <main class="container">
-    <article class="recipe-article" id="recipe-content">
-      <h2 class="hero-title mb-2">Carregando...</h2>
-    </article>
+  <main class="container" style="text-align: center; padding: 3rem 1rem;">
+    <h2 class="hero-title mb-3">Receita Não Encontrada</h2>
+    <p>Desculpe, não conseguimos encontrar a receita que você está procurando.</p>
+    <p>Você pode voltar para a página inicial e explorar outras deliciosas opções!</p>
+    <a href="/index.html" class="button" role="button" style="margin-top: 1.5rem; display: inline-block; padding: 0.75rem 1.5rem; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Voltar para a Home</a>
   </main>
 
   <footer class="footer">
